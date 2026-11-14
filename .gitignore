@@ -1,0 +1,14 @@
+# Secrets - never commit
+.elevenlabs_key
+*.key
+
+# Local caches / generated artifacts, not part of the repo
+__pycache__/
+*.pyc
+samples/
+
+# Built/staged mod output (shipped as GitHub Release assets, not repo files)
+mod_stage/
+mod_stage_tier*/
+*.bwav
+*.wav
