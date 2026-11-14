@@ -16,7 +16,7 @@ param(
     [ValidateSet("install", "remove")][string]$Action = "install",
     [string]$Stage,
     [ValidateSet(0, 1, 2, 3)][int]$Tier = 0,
-    [string]$ReleaseBaseUrl = "https://github.com/jonazune/hey-listen/releases/latest/download",
+    [string]$ReleaseBaseUrl = "https://github.com/maplerouteadmin-dev/hey-listen/releases/latest/download",
     [string]$LocalTierSource,
     [string]$CacheDir = (Join-Path $env:LOCALAPPDATA "OotVoiceMod\cache"),
     [string]$GameDir,
@@ -73,6 +73,7 @@ function Get-TierPackage([int]$tier) {
 }
 
 function Get-ModInfo {
+    if (-not $Stage) { return $null }
     $path = Join-Path $Stage "mod_info.json"
     if (Test-Path $path) { return Get-Content $path -Raw | ConvertFrom-Json }
     return $null
