@@ -45,9 +45,16 @@ def safe(name):
     return re.sub(r"[^\w-]+", "_", name)
 
 
+NONVERBAL = re.compile(r"\*[^*]{1,20}\*")
+
+
 def spoken(row):
-    """What the voice reads, which can differ from the on-screen text used for matching."""
-    return row.get("say") or row["text"]
+    """What the voice reads, which can differ from the on-screen text used for matching.
+    Strips *sigh*/*grunt*/*mumble*-style stage directions: the game already plays its own
+    sound for these, so literally speaking the word would duplicate or clash with it."""
+    text = row.get("say") or row["text"]
+    text = NONVERBAL.sub("", text)
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def plausible(seconds, text):
