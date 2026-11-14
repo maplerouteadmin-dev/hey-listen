@@ -1,0 +1,6620 @@
+[
+ {
+  "key": "Navi",
+  "actors": {
+   "Npc_Navi": 603,
+   "Navi": 247
+  },
+  "eras": {
+   "-": 850
+  },
+  "lines": 850,
+  "official": 90,
+  "to_voice": 760,
+  "samples": [
+   "But...it's a little too small for you, Link...",
+   "Hmm...you can't get around the large rock or through the small hole as you are now, Link. I wonder what we can do to get past here...",
+   "This hole is too small for you to fit through, Link...",
+   "Maybe you can force yourself through? No...let's not do that.",
+   "What is this? Those are some funky goggles. Maybe if you wear them, other things will look funky too.",
+   "Maybe the eyes of truth that Sheik was talking about are these weird goggles. I've got a feeling that if you wear them, things in the world will look weird too."
+  ],
+  "voice_types": {
+   "Custom_Navi": 603
+  },
+  "display": "Navi",
+  "top_cues": [
+   "Attention",
+   "Enthusiastic",
+   "TalkToLink",
+   "TalkPositive",
+   "Sad"
+  ],
+  "nickname": "Dm"
+ },
+ {
+  "key": "Npc_Hylia_Ingo",
+  "actors": {
+   "Npc_Hylia_Ingo_003_Adult": 3,
+   "Npc_Hylia_Ingo_002_Adult": 110,
+   "Npc_Hylia_Ingo_001_Adult": 152,
+   "Npc_Hylia_Ingo_001_Child": 94
+  },
+  "eras": {
+   "Adult": 265,
+   "Child": 94
+  },
+  "lines": 359,
+  "official": 0,
+  "to_voice": 359,
+  "samples": [
+   "I hope you're ready. Remember, don't feel bad when you're choking on my dust!",
+   "That's not how it's supposed to go!",
+   "You brat! Race me again!",
+   "If you lose this time, you'll still pay up in rupees, but if you win...",
+   "Why isn't this guy getting thrown?! He must have some kind of supernatural luck...",
+   "How?! How could this happen?!"
+  ],
+  "voice_types": {
+   "Ingo": 359
+  },
+  "display": "Ingo",
+  "top_cues": [
+   "TalkPositiveA",
+   "SurpriseM",
+   "QuestionNormal",
+   "IngoClickingTongue",
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Malon",
+  "actors": {
+   "Npc_Hylia_Malon_Child": 177,
+   "Npc_Hylia_Malon_Adult": 156
+  },
+  "eras": {
+   "Child": 177,
+   "Adult": 156
+  },
+  "lines": 333,
+  "official": 0,
+  "to_voice": 333,
+  "samples": [
+   "I think Epona likes you, fairy child! Hee hee! Isn't she sweet? When she gets a bit bigger, I'll let you ride her sometime!",
+   "Oh yeah. You know that prize you received for breaking the record? Did you ever find it after I delivered it to your house?",
+   "I hope you'll try the course again next time you visit with Epona!",
+   "Want to give it another go?",
+   "OK. I'll break down the course.",
+   "Come back if you change your mind."
+  ],
+  "voice_types": {
+   "Malon_Child": 177,
+   "Malon_Adult": 156
+  },
+  "display": "Malon",
+  "top_cues": [
+   "Sad",
+   "Notice",
+   "TalkPositive",
+   "SurpriseM",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_Saria",
+  "actors": {
+   "Npc_Kokiri_Saria_Child": 177,
+   "Npc_Kokiri_Saria_Adult": 1,
+   "Npc_Kokiri_Saria_Child_SacredForestMeadow": 63,
+   "Npc_Kokiri_Saria_Voice": 26
+  },
+  "eras": {
+   "Child": 240,
+   "Adult": 1,
+   "-": 26
+  },
+  "lines": 267,
+  "official": 43,
+  "to_voice": 224,
+  "samples": [
+   "I was making my way through the Forest Temple when I was summoned to this place by Rauru the sage.",
+   "And then...when you arrived and defeated that creature, I awoke here. And now I'm a sage as well.",
+   "I thank you, Hero of Time.",
+   "Link...you've grown so much.",
+   "I am truly grateful that you helped me out.",
+   "Thank you. Both of you."
+  ],
+  "voice_types": {
+   "Custom_Saria": 267
+  },
+  "display": "Saria",
+  "top_cues": [
+   "LaughS",
+   "QuestionNormal",
+   "TalkPositive",
+   "SurpriseS",
+   "Greeting"
+  ],
+  "nickname": "Dm"
+ },
+ {
+  "key": "Npc_Hylia_049",
+  "actors": {
+   "Npc_Hylia_049_Adult": 115,
+   "Npc_Hylia_049_Child": 123
+  },
+  "eras": {
+   "Adult": 115,
+   "Child": 123
+  },
+  "lines": 238,
+  "official": 0,
+  "to_voice": 238,
+  "samples": [
+   "Hey! Check out this egg!",
+   "That thunder was LOUD.",
+   "Gotta change the feed...",
+   "What's next on the list?",
+   "Next I have to do...what?",
+   "May as well tidy up here."
+  ],
+  "voice_types": {
+   "Hylia_Woman_Spry": 238
+  },
+  "display": "Cucco Lady",
+  "top_cues": [
+   "LaughS",
+   "Greeting",
+   "CuccoWoman_Sigh",
+   "QuestionNormal",
+   "Think"
+  ],
+  "nickname": "CuccoWoman"
+ },
+ {
+  "key": "Npc_Hylia_Talon",
+  "actors": {
+   "Npc_Hylia_Talon_Child": 152,
+   "Npc_Hylia_Talon_Adult": 43,
+   "Npc_Hylia_Talon_Adult_Kakariko": 37,
+   "Npc_Hylia_Talon_Child_SecondTime": 5
+  },
+  "eras": {
+   "Child": 157,
+   "Adult": 80
+  },
+  "lines": 237,
+  "official": 0,
+  "to_voice": 237,
+  "samples": [
+   "I was sleeping so peacefully... What is it?",
+   "Just who are you, kid?",
+   "That's right. I'm the owner of Lon Lon Ranch. Name's Talon.",
+   "I came to the castle to deliver milk, but well, I got sleepy. Next thing ya know, I nodded off.",
+   "Eh? Malon's looking for me?",
+   "Oh— Oh NO! I left her all on her own!"
+  ],
+  "voice_types": {
+   "Talon": 237
+  },
+  "display": "Talon",
+  "top_cues": [
+   "SurpriseL",
+   "SurpriseM",
+   "QuestionNormal",
+   "SurpriseS",
+   "Sad"
+  ],
+  "nickname": "Npc"
+ },
+ {
+  "key": "Npc_Hylia_Zelda",
+  "actors": {
+   "Npc_Hylia_Zelda_Adult": 58,
+   "Npc_Hylia_Zelda_Child": 171
+  },
+  "eras": {
+   "Adult": 58,
+   "Child": 171
+  },
+  "lines": 229,
+  "official": 85,
+  "to_voice": 144,
+  "samples": [
+   "Ganondorf's gone. He has been banished to the Evil Realm.",
+   "At long last, this world will finally see an age of peace.",
+   "All of the tragedies that led to this moment... They're my fault.",
+   "I was immature. Reckless. Opening up the path to the Sacred Realm...",
+   "As a result, so many suffered due to my actions...",
+   "And you...losing all of those years..."
+  ],
+  "voice_types": {
+   "Custom_Zelda_Adult": 58,
+   "Custom_Zelda_Child": 171
+  },
+  "display": "Zelda",
+  "top_cues": [
+   "Greeting",
+   "TalkPositive",
+   "Think",
+   "LaughS",
+   "QuestionNormal"
+  ],
+  "nickname": "Dm"
+ },
+ {
+  "key": "Npc_Hylia_Sheik",
+  "actors": {
+   "Npc_Hylia_Sheik_Adult": 219
+  },
+  "eras": {
+   "Adult": 219
+  },
+  "lines": 219,
+  "official": 44,
+  "to_voice": 175,
+  "samples": [
+   "A creature of darkness, locked away here for some time.",
+   "Impa and I received word that a monster had appeared in Kakariko Village, so we came to investigate the area immediately.",
+   "I see. This is Ganondorf's doing, isn't it?",
+   "So be it. Let us head to the temple, then.",
+   "Impa, please be careful.",
+   "The water flows, and with it, evil is washed away... You've done well, Link."
+  ],
+  "voice_types": {
+   "Custom_Sheik": 219
+  },
+  "display": "Sheik",
+  "top_cues": [
+   "TalkPositive",
+   "SurpriseL",
+   "Think",
+   "SurpriseS",
+   "Sad"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_006",
+  "actors": {
+   "Npc_Kokiri_006_Adult": 48,
+   "Npc_Kokiri_006_Child": 157,
+   "Npc_Invisible_Kokiri_006": 4
+  },
+  "eras": {
+   "Adult": 48,
+   "Child": 157,
+   "-": 4
+  },
+  "lines": 209,
+  "official": 0,
+  "to_voice": 209,
+  "samples": [
+   "Hey, mister! Cool sword!",
+   "W-wow! That's a cool sword, mister! Are you a swordsman like me?",
+   "Wh-who are you?! He's...he's...huge!",
+   "I'm back to training today. Hey, do you wanna hear about some of the monsters I've defeated?",
+   "I may be smaller than you, but I'm stronger than I look! That's right! If you've got time, I can tell you all kinds of stuff about the monsters I beat!",
+   "You're back? Guess you're interested in hearing about the monsters I bravely defeated, eh?"
+  ],
+  "voice_types": {
+   "Kokiri_Boy_Spry_1": 209
+  },
+  "display": null,
+  "top_cues": [
+   "LaughS",
+   "QuestionNormal",
+   "Think",
+   "Greeting",
+   "SideStep"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Zora_KingZora",
+  "actors": {
+   "Npc_Zora_KingZora_child": 114,
+   "Npc_Zora_KingZora_adult": 87
+  },
+  "eras": {
+   "Child": 114,
+   "Adult": 87
+  },
+  "lines": 201,
+  "official": 0,
+  "to_voice": 201,
+  "samples": [
+   "Hm? A bottle? What's that inside? A message?",
+   "Oh! Th-this message—It's from Princess Ruto! There's no doubt about it. It's in her handwriting, blub!",
+   "Hm? Let's see, let's see...",
+   "WHAT?! Inside... Lord Jabu-Jabu's... BELLY?!",
+   "Lord Jabu-Jabu is our people's guardian deity! Surely he would never eat my precious Ruto!",
+   "Though...come to think of it, Lord Jabu-Jabu has been behaving strangely in recent days, groaning and growling and whatnot..."
+  ],
+  "voice_types": {
+   "KingZora": 201
+  },
+  "display": "King Zora",
+  "top_cues": [
+   "SurpriseM",
+   "Angry",
+   "Greeting",
+   "QuestionNormal",
+   "SurpriseL"
+  ],
+  "nickname": "Dm"
+ },
+ {
+  "key": "Npc_Kaepora",
+  "actors": {
+   "Npc_Kaepora": 136,
+   "Npc_Kaepora_LakeHylia": 10,
+   "Npc_Invisible_Kaepora": 11,
+   "Npc_Kaepora_DeathMountainTrail": 31
+  },
+  "eras": {
+   "-": 188
+  },
+  "lines": 188,
+  "official": 13,
+  "to_voice": 175,
+  "samples": [
+   "Excellent work making it this far, young adventurer. The princess is in the castle just over yonder.",
+   "I wonder... What manner of events await you?",
+   "Go forth, but be careful! Hoo hoot!",
+   "Well now, Link. It seems the time has finally come for your journey to begin.",
+   "I am known as Kaepora Gaebora. I am here to offer you both my assistance and my counsel.",
+   "The path ahead will be one marked by many trials for you to overcome. Destiny, I believe, has decided that much for you already, lad."
+  ],
+  "voice_types": {
+   "Custom_Kaepora": 188
+  },
+  "display": "Kaepora Gaebora",
+  "top_cues": [
+   "TalkPositive",
+   "CallFar",
+   "SurpriseM",
+   "LaughS",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_007",
+  "actors": {
+   "Npc_Hylia_007_Adult": 96,
+   "Npc_Hylia_007_Child": 92
+  },
+  "eras": {
+   "Adult": 96,
+   "Child": 92
+  },
+  "lines": 188,
+  "official": 0,
+  "to_voice": 188,
+  "samples": [
+   "How's the well doing?",
+   "Sorry for the trouble.",
+   "My beard... The fire...",
+   "Things are calmer now...",
+   "Nice morning, isn't it?",
+   "You're not hurt, are you?"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_Quiet": 188
+  },
+  "display": null,
+  "top_cues": [
+   "BeardMan_Cough",
+   "Think",
+   "Greeting",
+   "Happy",
+   "Sad"
+  ],
+  "nickname": "BeardMan"
+ },
+ {
+  "key": "Npc_Kokiri_Mido",
+  "actors": {
+   "Npc_Kokiri_Mido_Child": 124,
+   "Npc_Kokiri_Mido_Adult": 62
+  },
+  "eras": {
+   "Child": 124,
+   "Adult": 62
+  },
+  "lines": 186,
+  "official": 0,
+  "to_voice": 186,
+  "samples": [
+   "I'm going to go check on the Great Deku Tree. You head on home, OK?",
+   "It's not safe—who knows what kind of monsters are lurking around.",
+   "What happened to the Great Deku Tree? Is he... Did he...wither away?",
+   "No... There's no way. It can't be true...",
+   "He IS still alive, right? Right?!",
+   "H-hey... You know that's the song that Saria always plays, right?"
+  ],
+  "voice_types": {
+   "Mido": 186
+  },
+  "display": "Mido",
+  "top_cues": [
+   "Angry",
+   "MidoCallOut",
+   "SurpriseM",
+   "QuestionNormal",
+   "SadSerious"
+  ],
+  "nickname": "Dm"
+ },
+ {
+  "key": "Npc_Hylia_052",
+  "actors": {
+   "Npc_Hylia_052_Adult": 60,
+   "Npc_Hylia_052_Child": 120
+  },
+  "eras": {
+   "Adult": 60,
+   "Child": 120
+  },
+  "lines": 180,
+  "official": 0,
+  "to_voice": 180,
+  "samples": [
+   "We can't go on a walk...",
+   "See that sleepy old man there? I don't like to gossip, but I think he got fired from his job...",
+   "All he does is laze around from morning to night! Seems awfully carefree during such hard times.",
+   "That sleepy old man's doing what he does best— nothing, all day long.",
+   "Ugh... If only that man would leave already! My dog deserves to have his own bed!",
+   "♪Don't you, Richard?♪"
+  ],
+  "voice_types": {
+   "Hylia_MA_Woman_2": 180
+  },
+  "display": null,
+  "top_cues": [
+   "DogMadam_Angry",
+   "Angry",
+   "SurpriseL",
+   "LaughL",
+   "LaughS"
+  ],
+  "nickname": "DogMadam"
+ },
+ {
+  "key": "Npc_Zora_Ruto",
+  "actors": {
+   "Npc_Zora_Ruto_Adult_001": 44,
+   "Dm_Npc_Zora_Ruto_Adult_001": 1,
+   "Npc_Zora_Ruto_Child_001": 121,
+   "Npc_Zora_Ruto_Child_002": 7
+  },
+  "eras": {
+   "Adult": 45,
+   "Child": 128
+  },
+  "lines": 173,
+  "official": 51,
+  "to_voice": 122,
+  "samples": [
+   "You are amazing, Link.",
+   "Of course, I'd expect no less from my fiancé. You fought magnificently.",
+   "Everything will be as once it was in Zora Domain from now on, thanks to you.",
+   "Ah, yes, and lest you've forgotten...",
+   "You have my eternal love! I am yours now!",
+   "Heh. If only it could be so."
+  ],
+  "voice_types": {
+   "Custom_Ruto_Adult": 45,
+   "Custom_Ruto_Child": 128
+  },
+  "display": "Ruto",
+  "top_cues": [
+   "Sulking",
+   "Ease",
+   "Angry",
+   "Think",
+   "Vigilance"
+  ],
+  "nickname": "Dm"
+ },
+ {
+  "key": "Npc_Hylia_010",
+  "actors": {
+   "Npc_Hylia_010_Adult": 69,
+   "Npc_Hylia_010_Child": 99
+  },
+  "eras": {
+   "Adult": 69,
+   "Child": 99
+  },
+  "lines": 168,
+  "official": 0,
+  "to_voice": 168,
+  "samples": [
+   "What's with the well?",
+   "It's finally calmed down.",
+   "Don't think I've seen you around before... First time here in Kakariko Village?",
+   "Been hearing rumors about Dampé's ghost until recently. But they seem to have gone quiet. Anyway, just rumors, I suppose.",
+   "I hope Dampé's ghost is able to find peace...",
+   "There were rumors that people were seeing Dampé's ghost around, but I haven't heard of any new sightings recently."
+  ],
+  "voice_types": {
+   "Hylia_Man_2": 168
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Think",
+   "Notice",
+   "BluntMan_Sad",
+   "BluntMan_TalkPositive"
+  ],
+  "nickname": "BluntMan"
+ },
+ {
+  "key": "Npc_Hylia_048",
+  "actors": {
+   "Npc_Hylia_048_BottleShop": 167
+  },
+  "eras": {
+   "-": 167
+  },
+  "lines": 167,
+  "official": 0,
+  "to_voice": 167,
+  "samples": [
+   "I'm still selling it!",
+   "I'll check my points.",
+   "Have you come to sell poes? Or would you like to check your points?",
+   "Have you come to sell poes? Or would you like to hear about points?",
+   "Welcome, friend! Oh! You have a horse, yes? Hehehe! I can tell by your scent! Well, if that's the case, you should know that I pay extra for big poes!",
+   "Is there anything else I can do for you?"
+  ],
+  "voice_types": {
+   "PoeBuyer": 167
+  },
+  "display": "Poe Collector",
+  "top_cues": [
+   "PoeBuyer_LaughDM",
+   "SurpriseS",
+   "SurpriseM",
+   "QuestionNormal",
+   "Think"
+  ],
+  "nickname": "PoeBuyer"
+ },
+ {
+  "key": "Npc_Hylia_012",
+  "actors": {
+   "Npc_Hylia_012_Adult": 78,
+   "Npc_Hylia_012_Child": 88
+  },
+  "eras": {
+   "Adult": 78,
+   "Child": 88
+  },
+  "lines": 166,
+  "official": 0,
+  "to_voice": 166,
+  "samples": [
+   "Those slacker apprentices have been nothing but trouble since we arrived in Gerudo Valley...",
+   "My apprentices are the saddest bunch of slackers I've ever laid eyes on...",
+   "I'm counting on you to find my apprentices.",
+   "For me, things are just as you see 'em. My work here is finished, so I was thinking of heading to Kakariko Village...",
+   "Thanks for getting my apprentices outta trouble. You're OK in my book.",
+   "Whoa! You spooked me!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_Spry_1": 166
+  },
+  "display": "Master Craftsman",
+  "top_cues": [
+   "CarpenterBoss_TalkPositive",
+   "Notice",
+   "Think",
+   "Happy",
+   "QuestionNormal"
+  ],
+  "nickname": "CarpenterBoss"
+ },
+ {
+  "key": "Npc_Hylia_045",
+  "actors": {
+   "Npc_Hylia_045_Adult": 97,
+   "Npc_Hylia_045_Child": 60
+  },
+  "eras": {
+   "Adult": 97,
+   "Child": 60
+  },
+  "lines": 157,
+  "official": 0,
+  "to_voice": 157,
+  "samples": [
+   "Well now, well now...",
+   "Not making deliveries.",
+   "I need a fresh batch.",
+   "Oh goodness! Our chat has caused my research to completely slip my mind...",
+   "Hmm... Seems I've not got much to do. Maybe I'll kill time strolling around the lake...",
+   "Did you enjoy your dip in the pool, my boy?"
+  ],
+  "voice_types": {
+   "Hylia_Elderly_Man_1": 157
+  },
+  "display": "Lake Scientist",
+  "top_cues": [
+   "QuestionNormal",
+   "LaughS",
+   "Greeting",
+   "LaughL",
+   "Sad"
+  ],
+  "nickname": "LakeDoctor"
+ },
+ {
+  "key": "Npc_Hylia_051",
+  "actors": {
+   "Npc_Hylia_051_Adult": 67,
+   "Npc_Hylia_051_Child": 87
+  },
+  "eras": {
+   "Adult": 67,
+   "Child": 87
+  },
+  "lines": 154,
+  "official": 0,
+  "to_voice": 154,
+  "samples": [
+   "Of course! Oh, and don't forget to bring that girl along with you! You know. The one you're always busy staring at... The cucco girl!",
+   "Oh, don't you worry about that! It's no trouble. If you'd like, I can teach you. Surely there's someone you'd like to cook for...",
+   "You mean the one about how long ago there was a house standing where the well is now?",
+   "Sure, if you believe in that sort of thing... I didn't think you were the type!",
+   "Stop by if you're hungry!",
+   "Looks a bit run-down..."
+  ],
+  "voice_types": {
+   "Hylia_MA_Woman_Spry": 154
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "Greeting",
+   "CaringWoman_Surprise",
+   "Think",
+   "Happy"
+  ],
+  "nickname": "CaringWoman"
+ },
+ {
+  "key": "Npc_Hylia_Dampe_001",
+  "actors": {
+   "Npc_Hylia_Dampe_001": 150,
+   "Npc_Invisible_Hylia_Dampe_001": 3
+  },
+  "eras": {
+   "-": 153
+  },
+  "lines": 153,
+  "official": 0,
+  "to_voice": 153,
+  "samples": [
+   "The Grave-Diggin' Tour!",
+   "Where d'ya wanna dig?",
+   "Well, that's somethin'.",
+   "Perfect night for diggin'.",
+   "Wouldja look at that!",
+   "Hey, kid! Don't mess with the graves! I'm Dampé, the gravekeeper! My face may be scary, but I'm not a bad guy.... Hm."
+  ],
+  "voice_types": {
+   "Dampe": 153
+  },
+  "display": "Dampé",
+  "top_cues": [
+   "Notice",
+   "QuestionNormal",
+   "TalkPositiveHappy",
+   "TalkPositive",
+   "LaughL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_Darunia",
+  "actors": {
+   "Npc_Goron_Darunia_Adult": 37,
+   "Npc_Goron_Darunia_Child": 113,
+   "Dm_Npc_Goron_Darunia_Adult": 1
+  },
+  "eras": {
+   "Adult": 38,
+   "Child": 113
+  },
+  "lines": 151,
+  "official": 68,
+  "to_voice": 83,
+  "samples": [
+   "Thank you so much, Brother!",
+   "I say that on behalf of all Gorons.",
+   "I can't believe you defeated Volvagia... You went from tough little pip-squeak to tough big pip-squeak just like that!",
+   "I hate to say it, but I'd be a pile of gravel right now if Rauru hadn't pulled me outta the fire back there.",
+   "They're calling me the Sage of Fire. So you know I gotta live up to that title.",
+   "It all makes me laugh! Am I right, Brother?"
+  ],
+  "voice_types": {
+   "Custom_Darunia": 151
+  },
+  "display": "Darunia",
+  "top_cues": [
+   "SurpriseS",
+   "LaughL",
+   "Angry",
+   "Greeting",
+   "Think"
+  ],
+  "nickname": "Dm"
+ },
+ {
+  "key": "Npc_Hylia_023_Shop",
+  "actors": {
+   "Npc_Hylia_023_Shop_Child": 143
+  },
+  "eras": {
+   "Child": 143
+  },
+  "lines": 143,
+  "official": 0,
+  "to_voice": 143,
+  "samples": [
+   "That's a lovely melody.",
+   "That's a lovely melody.",
+   "That's a lovely melody.",
+   "That's a lovely melody.",
+   "That's a lovely melody.",
+   "That's a lovely melody."
+  ],
+  "voice_types": {
+   "Happy_Mask_Shop": 143
+  },
+  "display": "Happy Mask Shopkeeper",
+  "top_cues": [
+   "LaughS",
+   "SurpriseL",
+   "Greeting",
+   "TalkPositive",
+   "SurpriseM"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_SkullKid",
+  "actors": {
+   "Npc_SkullKid_Child": 96,
+   "Npc_SkullKid_Child_02": 43
+  },
+  "eras": {
+   "Child": 139
+  },
+  "lines": 139,
+  "official": 0,
+  "to_voice": 139,
+  "samples": [
+   "That mask looks tough!",
+   "I'm not giving it up.",
+   "Hmmm. The song you played... It's a little different from Saria's Song.",
+   "Hey...that song! You know Saria's Song too?!♪That makes us friends. I've got a little something for ya. Hehe.♪",
+   "Hey. You. Don't you think my face is missing something? Like it could be a little more unique. Hmm... What to do about that...",
+   "♪What a good song. I never get tired of it, no matter how many times I hear it.♪♪Let's play again sometime, hehe!♪"
+  ],
+  "voice_types": {
+   "SkullKid": 139
+  },
+  "display": "Skull Kid",
+  "top_cues": [
+   "Think",
+   "LaughS",
+   "Sad",
+   "QuestionNormal",
+   "Happy"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_014",
+  "actors": {
+   "Npc_Hylia_014_Adult": 70,
+   "Npc_Hylia_014_Child": 66
+  },
+  "eras": {
+   "Adult": 70,
+   "Child": 66
+  },
+  "lines": 136,
+  "official": 0,
+  "to_voice": 136,
+  "samples": [
+   "I never expected someone this handsome would show up to save me... Thank you! Name's Jiro.",
+   "Ichiro, the most senior guy on our crew, convinced the four of us carpenters to come here and become Gerudo thieves...",
+   "But they are WAY scarier than I thought they'd be! I think we should stick to construction.",
+   "I can't wait to get outta this place!",
+   "Huh... I heard something!",
+   "Ahh... I'll never get out!"
+  ],
+  "voice_types": {
+   "Hylia_Androgynous_Youth_2": 136
+  },
+  "display": "Jiro",
+  "top_cues": [
+   "SurpriseM",
+   "Think",
+   "Determination",
+   "LaughS",
+   "Ease"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_011_Shop",
+  "actors": {
+   "Npc_Goron_011_Shop_Adult": 37,
+   "Npc_Goron_011_Shop_Child": 96
+  },
+  "eras": {
+   "Adult": 37,
+   "Child": 96
+  },
+  "lines": 133,
+  "official": 0,
+  "to_voice": 133,
+  "samples": [
+   "Whoa! Someone new? And at a time like this? I gotta keep the business open though! It feels important to stay open, ya know?",
+   "Everyone's gone... I gotta keep the business open though. It feels important to stay open, ya know?",
+   "No one's here, so no one is buying anything! Except maybe you? Please?",
+   "They're back! Everyone's back! Well, technically I never left, so I can't be \"back,\" I guess... Ya know, that's not important.",
+   "I'm so glad everyone is back safe and sound.",
+   "Thanks for stopping by."
+  ],
+  "voice_types": {
+   "Goron_Boy_1": 133
+  },
+  "display": "Shop Owner",
+  "top_cues": [
+   "QuestionNormal",
+   "LaughS",
+   "TalkPositive",
+   "Sad",
+   "Greeting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_015",
+  "actors": {
+   "Npc_Hylia_015_Adult": 66,
+   "Npc_Hylia_015_Child": 63
+  },
+  "eras": {
+   "Adult": 66,
+   "Child": 63
+  },
+  "lines": 129,
+  "official": 0,
+  "to_voice": 129,
+  "samples": [
+   "Thanks, pal! That was real nice of you! I'm Saburo.",
+   "I'm only here 'cause Jiro, this other carpenter I work with, said it was this big dream to join the Gerudo. Next thing you know, I'm locked up.",
+   "Oh well. I've been rescued, so...it all worked out in the end, I guess.",
+   "Hee hee! I better get back to the boss. I bet he's worried sick about us...",
+   "No! Don't go, don't go!",
+   "Hey, you here to help me?'Cause if you wanna help me escape, first you need to steal the key from that, uh, scary guard."
+  ],
+  "voice_types": {
+   "Hylia_Androgynous_Youth_1": 129
+  },
+  "display": "Saburo",
+  "top_cues": [
+   "Determination",
+   "SurpriseM",
+   "Greeting",
+   "QuestionNormal",
+   "TalkPositive"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_016",
+  "actors": {
+   "Npc_Hylia_016_Adult": 75,
+   "Npc_Hylia_016_Child": 54
+  },
+  "eras": {
+   "Adult": 75,
+   "Child": 54
+  },
+  "lines": 129,
+  "official": 0,
+  "to_voice": 129,
+  "samples": [
+   "I can't believe you fought for me! ME! I owe you my name, at the very least. I'm Shiro!",
+   "I never really wanted to come here, but Saburo insisted we make the journey.",
+   "I'm the youngest, newest guy on the crew. It's not like I could disagree. I had no choice...",
+   "I bet by now the other guys wish they never came to this place... Next time I see 'em, I won't hold back what I really think!",
+   "I need to get outta here!",
+   "Of course, you're gonna need to be really sneaky now... There's probably a Gerudo guard around here...somewhere..."
+  ],
+  "voice_types": {
+   "Hylia_Androgynous_Youth_2": 129
+  },
+  "display": "Shiro",
+  "top_cues": [
+   "Think",
+   "LaughS",
+   "Notice",
+   "Praise",
+   "Greeting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Enemy_Scrub_Business",
+  "actors": {
+   "Enemy_Scrub_Business": 103,
+   "Enemy_Scrub_Business_Seed": 23
+  },
+  "eras": {
+   "-": 126
+  },
+  "lines": 126,
+  "official": 0,
+  "to_voice": 126,
+  "samples": [
+   "Squee... I surrender...",
+   "Squee... Ya got me! I'm sorry for attacking you... Let me sell ya the good stuff as an apology.",
+   "Squee... I surrender! Let me sell ya the good stuff as an apology.",
+   "Squee... I give up! Let me sell ya the good stuff as an apology.",
+   "I'll sell ya the good stuff!",
+   "Ya got me—I give up! I'll sell ya the good stuff, so let's just move on, 'K?"
+  ],
+  "voice_types": {
+   "Scrub_Business": 126
+  },
+  "display": "Business Scrub",
+  "top_cues": [
+   "Appreciate"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_013",
+  "actors": {
+   "Npc_Hylia_013_Adult": 74,
+   "Npc_Hylia_013_Child": 51
+  },
+  "eras": {
+   "Adult": 74,
+   "Child": 51
+  },
+  "lines": 125,
+  "official": 0,
+  "to_voice": 125,
+  "samples": [
+   "WOW! You are SO strong! Nice to officially meet you! I'm no criminal, you know. Just a simple carpenter named Ichiro!",
+   "One of the newer guys on my crew, Shiro, was going on about the Gerudo and how cool they were, and I got swept up in the thrill of it all.",
+   "But as soon as we got here, the Gerudo acted like jerks, treating us like scum just 'cause we're outsiders.",
+   "It was so... RUDE! Boy, am I done with this place.",
+   "Huh? Is someone there?!",
+   "I just wanna go home..."
+  ],
+  "voice_types": {
+   "Hylia_Androgynous_Youth_1": 125
+  },
+  "display": "Ichiro",
+  "top_cues": [
+   "Praise",
+   "SurpriseL",
+   "Scare",
+   "Greeting",
+   "Sad"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Dampe_002",
+  "actors": {
+   "Npc_Hylia_Dampe_002": 125
+  },
+  "eras": {
+   "-": 125
+  },
+  "lines": 125,
+  "official": 0,
+  "to_voice": 125,
+  "samples": [
+   "Leavin' ya in the dust.",
+   "Got a treasure for ya.",
+   "Lookin' for challengers!",
+   "I was busy diggin' my own grave when I stumbled upon these ruins. And while I was diggin' every which way, I made a nifty little tunnel system.",
+   "Heh heh, then let's get goin'. On your mark, get set...",
+   "Heh heh, atta boy. Alrighty, let's go!"
+  ],
+  "voice_types": {
+   "Dampe_Ghost": 125
+  },
+  "display": "Dampé",
+  "top_cues": [
+   "LaughS",
+   "QuestionNormal",
+   "TalkPositiveHappy",
+   "LaughL",
+   "Satisfying"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_005",
+  "actors": {
+   "Npc_Hylia_005_Adult": 69,
+   "Npc_Hylia_005_Child": 55
+  },
+  "eras": {
+   "Adult": 69,
+   "Child": 55
+  },
+  "lines": 124,
+  "official": 0,
+  "to_voice": 124,
+  "samples": [
+   "One who sees the truth...",
+   "Dreadful, dreadful...",
+   "I sure appreciate this...",
+   "No ghost after all, eh?",
+   "Just don't go near the graveyard, eh? You may disturb the ghost of the gravekeeper...",
+   "I may be getting on in years, but I'd rather not come face-to-face with the other side just yet!"
+  ],
+  "voice_types": {
+   "Hylia_Elderly_Man_1": 124
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "Sad",
+   "Chatting",
+   "Think",
+   "TalkPositive"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_RunningMan",
+  "actors": {
+   "Npc_Hylia_RunningMan_Adult": 68,
+   "Npc_Hylia_RunningMan_Child": 53
+  },
+  "eras": {
+   "Adult": 68,
+   "Child": 53
+  },
+  "lines": 121,
+  "official": 0,
+  "to_voice": 121,
+  "samples": [
+   "Spirit of the wild...",
+   "There's supposed to be a land of harsh sands beyond the Gerudo Fortress... But how will I get there if they won't let me through?",
+   "Prepare your body, friend, and let us enter the wild together!",
+   "Haha! It seems you're already doing some other challenge. If you want to take me on, you'll need to finish up that task first!",
+   "A-astounding... It's just as I thought! Racing you is the key to exceeding my limits! Here. This is a token of my appreciation!",
+   "Men... Monsters... Fish... I've simply become too fast for any of them to compete with me."
+  ],
+  "voice_types": {
+   "Hylia_Man_4": 121
+  },
+  "display": "Running Man",
+  "top_cues": [
+   "Think",
+   "LaughS",
+   "RunningMan_NoticeL",
+   "RunningMan_Thinkback",
+   "Happy"
+  ],
+  "nickname": "RunningMan"
+ },
+ {
+  "key": "Npc_Goron_005",
+  "actors": {
+   "Npc_Goron_005_Child": 86,
+   "Npc_Goron_005_Adult": 18,
+   "Npc_Goron_005_Adult_FireTemple": 15
+  },
+  "eras": {
+   "Child": 86,
+   "Adult": 33
+  },
+  "lines": 119,
+  "official": 0,
+  "to_voice": 119,
+  "samples": [
+   "You did great, Brother!",
+   "I'm heading back to Goron City! I'll wait for the others there!",
+   "Big Bro still isn't back...",
+   "I can...really go? Thank you! Goro!",
+   "Wait... Aren't you...the kid who cleared out the Dodongos back in the day? How'd you wind up here?",
+   "Sorry, I'm not much help... But please help Big Brother Darunia and save my friends! Goro!"
+  ],
+  "voice_types": {
+   "Goron_Boy_2": 119
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Shivering",
+   "QuestionNormal",
+   "Happy",
+   "LaughL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_017",
+  "actors": {
+   "Npc_Hylia_017_Adult": 89,
+   "Npc_Hylia_017_Child": 27
+  },
+  "eras": {
+   "Adult": 89,
+   "Child": 27
+  },
+  "lines": 116,
+  "official": 0,
+  "to_voice": 116,
+  "samples": [
+   "I'm counting on you...",
+   "I can't do this now...",
+   "Huh?! That cry...is...",
+   "C-Cojiro? Oh, my... Cojiro! Is that really you?!",
+   "But you gotta be quick! Take forever, and it'll rot away into nothing!",
+   "Wait... You're giving Cojiro back to me? I... I don't know what to say... So you are good after all. In that case, I gotta ask ya..."
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_2": 116
+  },
+  "display": "Master Craftsman's Son",
+  "top_cues": [
+   "SpoiledSon_IrritationFS",
+   "SpoiledSon_AngryFS",
+   "LaughS",
+   "SpoiledSon_StunnedFS",
+   "Think"
+  ],
+  "nickname": "SpoiledSon"
+ },
+ {
+  "key": "Npc_Goron_003",
+  "actors": {
+   "Npc_Goron_003_Adult": 27,
+   "Npc_Goron_003_Adult_FireTemple": 15,
+   "Npc_Goron_003_Child": 73
+  },
+  "eras": {
+   "Adult": 42,
+   "Child": 73
+  },
+  "lines": 115,
+  "official": 0,
+  "to_voice": 115,
+  "samples": [
+   "Thanks so much! If there are others down here, you gotta help them!",
+   "Urgh... Can't take much more of this...",
+   "I don't do well in cramped spaces... Gotta get outta here...",
+   "How're the others? Been worrying about 'em...",
+   "What happened? Is it safe?",
+   "We'll get this place hopping again to prep for Big Brother's return so he's met with a warm welcome whenever he makes it back!"
+  ],
+  "voice_types": {
+   "Goron_Boy_Spry": 115
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Hungry_TalkPositive",
+   "Shivering",
+   "Think",
+   "QuestionNormal"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_Biggoron",
+  "actors": {
+   "Npc_Goron_Biggoron_Adult": 113
+  },
+  "eras": {
+   "Adult": 113
+  },
+  "lines": 113,
+  "official": 0,
+  "to_voice": 113,
+  "samples": [
+   "The name's Biggoronnn.",
+   "How ya like that sworrrd?",
+   "You made it to Biggoron Blaaades! Welcommme!",
+   "How's the edge on that blaaade? Sharp, hmmm?",
+   "You can call it the Biggoron Sword, gorrro!",
+   "I know you've traveled mighty farrr, but I'm not taking orders right nowww. Sorryyy."
+  ],
+  "voice_types": {
+   "Biggoron": 113
+  },
+  "display": "Biggoron",
+  "top_cues": [
+   "BiggoronItching",
+   "QuestionNormal",
+   "Happy",
+   "Angry",
+   "BiggoronAccomplished"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_008",
+  "actors": {
+   "Npc_Kokiri_008_Adult": 21,
+   "Npc_Kokiri_008_Child": 87
+  },
+  "eras": {
+   "Adult": 21,
+   "Child": 87
+  },
+  "lines": 108,
+  "official": 0,
+  "to_voice": 108,
+  "samples": [
+   "When'll Mido be back?",
+   "You sure showed up at a good time!",
+   "I wonder if Saria and Mido are doing OK. Hopefully they come back soon and see that the forest is back to normal.",
+   "I hope Saria and Mido come home soon. Oh! I better clean up before they get back.",
+   "We're all waiting for Saria and Mido to get back. They're taking a while...",
+   "What's the deal with that mask? Are you trying to look cute with it or something?"
+  ],
+  "voice_types": {
+   "Kokiri_Boy_Quiet": 108
+  },
+  "display": null,
+  "top_cues": [
+   "Greeting",
+   "QuestionNormal",
+   "SurpriseM",
+   "SurpriseS",
+   "Think"
+  ],
+  "nickname": "HardworkingBoy"
+ },
+ {
+  "key": "Npc_Kokiri_Fado",
+  "actors": {
+   "Npc_Kokiri_Fado_Adult": 36,
+   "Npc_Kokiri_Fado_Child": 70
+  },
+  "eras": {
+   "Adult": 36,
+   "Child": 70
+  },
+  "lines": 106,
+  "official": 0,
+  "to_voice": 106,
+  "samples": [
+   "You know, the humans who dare enter the forest have been known to disappear. Actually, they turn into Stalfos.",
+   "I knew it! I knew that was made with something from the forest!",
+   "Hee hee! I wonder... Would you like that to be your fate?",
+   "You can have this in return. I don't need it.",
+   "Are you looking for that fellow who was here before? Well, you won't find him here now.",
+   "Are you going to give that back?"
+  ],
+  "voice_types": {
+   "Kokiri_Girl_Spry": 106
+  },
+  "display": "Fado",
+  "top_cues": [
+   "Fado_LaughF",
+   "Fado_AngryFS",
+   "Fado_AngryF",
+   "Greeting",
+   "SurpriseS"
+  ],
+  "nickname": "Fado"
+ },
+ {
+  "key": "Nabooru",
+  "actors": {
+   "Npc_Gerudo_Nabooru_Adult": 20,
+   "Npc_Gerudo_Nabooru_Child": 84,
+   "Dm_Npc_Gerudo_Nabooru_Adult": 1
+  },
+  "eras": {
+   "Adult": 21,
+   "Child": 84
+  },
+  "lines": 105,
+  "official": 38,
+  "to_voice": 67,
+  "samples": [
+   "Hey, kid. Or rather, hello, Link.",
+   "I owe you an eternal debt. Thank you.",
+   "Ah ha ha ha ha! I can't believe what I'm looking at. The little kid from seven years ago is all grown up—you're a real swordsman now.",
+   "Seven whole years, huh?",
+   "I can't believe I was so careless. I fell right into their trap.",
+   "Those old crones used me like a puppet. They forced me to help Ganondorf get what he was after."
+  ],
+  "voice_types": {
+   "Custom_Nabooru": 105
+  },
+  "display": "Nabooru",
+  "top_cues": [
+   "Sad",
+   "Think",
+   "TalkPositive",
+   "LaughS",
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Zora_011_Shop",
+  "actors": {
+   "Npc_Zora_011_Shop_Adult": 30,
+   "Npc_Zora_011_Shop_Child": 73
+  },
+  "eras": {
+   "Adult": 30,
+   "Child": 73
+  },
+  "lines": 103,
+  "official": 0,
+  "to_voice": 103,
+  "samples": [
+   "My fins... So cold...",
+   "Ah... Sorry! I'm still recovering from being frozen solid. But that doesn't mean we aren't open! Please, feel free to browse.",
+   "Please come back ag— Aga—",
+   "Pardon me. Please feel free to browse.",
+   "Th-thank... Thank... THANK...",
+   "Oh, I got carried away, didn't I? Is there anything else you need?"
+  ],
+  "voice_types": {
+   "Zora_Man_4": 103
+  },
+  "display": "Shop Owner",
+  "top_cues": [
+   "Sad",
+   "Happy",
+   "Sneeze",
+   "Notice",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_030",
+  "actors": {
+   "Npc_Hylia_030_Child": 100
+  },
+  "eras": {
+   "Child": 100
+  },
+  "lines": 100,
+  "official": 0,
+  "to_voice": 100,
+  "samples": [
+   "You're not getting away!",
+   "OK, let's keep the introductions short. Are you here because you saw the heart-pounding grave-digging too-wuh sign at the entrance?",
+   "I know all about this place. I even know all about the graveyard too-wuh.",
+   "I'm super busy right now and can't talk! Kids are super busy these days, yanno!",
+   "I know all about this place. I even know all about the famous nighttime specialty here.",
+   "There's a buncha stuff I wanna tell you all about. But it's dinnertime. I don't want my super-hot soup to get super cold."
+  ],
+  "voice_types": {
+   "Hylia_Boy": 100
+  },
+  "display": null,
+  "top_cues": [
+   "GraveyardPlayingBoy_AngerL",
+   "Think",
+   "Angry",
+   "LaughS",
+   "GraveyardPlayingBoy_BigAnger"
+  ],
+  "nickname": "GraveyardPlayingBoy"
+ },
+ {
+  "key": "DekuTreeSprout",
+  "actors": {
+   "Npc_DekuTreeChild": 98
+  },
+  "eras": {
+   "-": 98
+  },
+  "lines": 98,
+  "official": 18,
+  "to_voice": 80,
+  "samples": [
+   "Thank you both so much!",
+   "I'm the little guy, the baby guy! I'm the... Deku Tree Sprout!",
+   "You and Saria managed to free the Forest Temple from the demon's curse...",
+   "And right in that moment... I was born!",
+   "Thank you so much! There aren't enough thank-yous to thank you enough!",
+   "So have you gone back and said hi to the Kokiri yet? Because I bet you they don't even recognize you anymore, do they?"
+  ],
+  "voice_types": {
+   "Custom_DekuTree_Child": 98
+  },
+  "display": "Deku Tree Sprout",
+  "top_cues": [
+   "SurpriseS",
+   "SurpriseM",
+   "Greeting",
+   "SurpriseL",
+   "TalkPositive"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_019_Shop",
+  "actors": {
+   "Npc_Hylia_019_Shop_Adult": 3,
+   "Npc_Hylia_019_Shop_Child": 95
+  },
+  "eras": {
+   "Adult": 3,
+   "Child": 95
+  },
+  "lines": 98,
+  "official": 0,
+  "to_voice": 98,
+  "samples": [
+   "Welcome to Kakariko Village's new attraction: the Shooting Gallery—a place for people who can appreciate a sophisticated game of skill!",
+   "I'll give you a bigger quiver!",
+   "The promise of a prize pique your interest? Oooh, a new quiver...",
+   "I'll give you some arrows, so you won't have to use any of your own.",
+   "I've given you 15 arrows to play with, so don't worry about using any of your own.",
+   "Uh-oh. That was the last of your arrows."
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_Spry_2": 98
+  },
+  "display": "Shooting-Gallery Operator",
+  "top_cues": [
+   "Sad",
+   "DelicateShopkeeper_Angry",
+   "QuestionNormal",
+   "DelicateShopkeeper_Perfect",
+   "Notice"
+  ],
+  "nickname": "DelicateShopkeeper"
+ },
+ {
+  "key": "Npc_Hylia_Soldier_003",
+  "actors": {
+   "Npc_Hylia_Soldier_003": 97
+  },
+  "eras": {
+   "-": 97
+  },
+  "lines": 97,
+  "official": 0,
+  "to_voice": 97,
+  "samples": [
+   "This is the crest of Hyrule's royal family!",
+   "Let's see, let's see...",
+   "So then...you're the savior of our kingdom, are you? A true hero...",
+   "Ah ha ha ha! Our princess came up with another one of her unusual games, huh?",
+   "Trail's closed right now!",
+   "Oughta get this home..."
+  ],
+  "voice_types": {
+   "Hylia_Man_4": 97
+  },
+  "display": null,
+  "top_cues": [
+   "LaughL",
+   "Greeting",
+   "Notice",
+   "TalkPositive",
+   "QuestionNormal"
+  ],
+  "nickname": "MountainGateKeeper"
+ },
+ {
+  "key": "Npc_Hylia_Impa",
+  "actors": {
+   "Npc_Hylia_Impa_Child": 86,
+   "Dm_Npc_Hylia_Impa_Adult": 10
+  },
+  "eras": {
+   "Child": 86,
+   "Adult": 10
+  },
+  "lines": 96,
+  "official": 35,
+  "to_voice": 61,
+  "samples": [
+   "It's been a while. Greetings, brave one.",
+   "Though...as of late, you're known as the Hero of Time.",
+   "You have done well, truly. Slaying that demonic beast from the Shadow Temple? I thank you.",
+   "You need not worry. She is safe.",
+   "Her Highness will soon make herself known to you, and all will be revealed...",
+   "Only then can the sages stop the Demon King and restore peace to Hyrule."
+  ],
+  "voice_types": {
+   "Custom_Impa": 96
+  },
+  "display": "Impa",
+  "top_cues": [
+   "TalkPositive",
+   "Angry",
+   "SurpriseM",
+   "Greeting",
+   "Painful"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Zora_001",
+  "actors": {
+   "Npc_Zora_001": 40,
+   "Npc_Zora_001_Adult": 56
+  },
+  "eras": {
+   "-": 40,
+   "Adult": 56
+  },
+  "lines": 96,
+  "official": 0,
+  "to_voice": 96,
+  "samples": [
+   "Ah! Hello, Hylian boy! You're interested in a diving lesson? What a splendid idea!",
+   "Even with my expert training, there are some skills beyond the grasp of a finless one such as yourself.",
+   "But I should be quite able to teach you how to dive as deep as any Zora!",
+   "So, my would-be pupil, let's enhance your skills! Are you prepared to dive?",
+   "LATER?! I will not spare time teaching the unmotivated! Find your urge to learn, then return to me.",
+   "What drive! Truly a fantastic answer! Now then, the task at hand is a simple one..."
+  ],
+  "voice_types": {
+   "Zora_Instructor": 96
+  },
+  "display": null,
+  "top_cues": [
+   "LaughS",
+   "Think",
+   "Happy",
+   "Shivering",
+   "Impressed"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_046",
+  "actors": {
+   "Npc_Hylia_046_BottleShop_Child": 95
+  },
+  "eras": {
+   "Child": 95
+  },
+  "lines": 95,
+  "official": 0,
+  "to_voice": 95,
+  "samples": [
+   "I buy bottled things!",
+   "Sell me bottled things!",
+   "Buying bottled things...",
+   "Please sell me stuff...",
+   "Sorry for bothering you...",
+   "Sell me bottled things! Please! I BEG YOU!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_1": 95
+  },
+  "display": "Buyer",
+  "top_cues": [
+   "Happy",
+   "Greeting",
+   "JunkBuyer_Entreaty",
+   "Think",
+   "Notice"
+  ],
+  "nickname": "JunkBuyer"
+ },
+ {
+  "key": "Npc_Hylia_009",
+  "actors": {
+   "Npc_Hylia_009_Adult": 40,
+   "Npc_Hylia_009_Child": 53
+  },
+  "eras": {
+   "Adult": 40,
+   "Child": 53
+  },
+  "lines": 93,
+  "official": 0,
+  "to_voice": 93,
+  "samples": [
+   "The windmill is all wrong now, and there's no one to blame but that ocarina-playing punk!",
+   "The well dried up, and it's all because that little punk with the ocarina played a weird song!",
+   "Grahhh! I hope I never see another ocarina for the rest of my life! You listen to me, buddy. If you happen to have an ocarina, don't you dare let me see it!",
+   "If I so much as catch a whiff of an ocarina, it's all over for you.",
+   "H-hey...you... You've got an ocarina?",
+   "This song has been stuck in my head ever since!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_Spry_2": 93
+  },
+  "display": "Music Man",
+  "top_cues": [
+   "LaughS",
+   "AngryM",
+   "MusicMan_Angry",
+   "Think",
+   "QuestionNormal"
+  ],
+  "nickname": "MusicMan"
+ },
+ {
+  "key": "Npc_Hylia_020_Shop",
+  "actors": {
+   "Npc_Hylia_020_Shop_Adult": 11,
+   "Npc_Hylia_020_Shop_Child": 81
+  },
+  "eras": {
+   "Adult": 11,
+   "Child": 81
+  },
+  "lines": 92,
+  "official": 0,
+  "to_voice": 92,
+  "samples": [
+   "Welcome to the Potion Shop. If you're looking for Granny's Cauldron, hang a left at the counter and continue on from there.",
+   "Even after moving to Kakariko Village, I remain as luminous as ever. I never charge for a chat, you know, so don't be a stranger.",
+   "Normally, at Granny's place, you can purchase truly marvelous potions... But not lately. You can't buy anything there at the moment. I wonder what happened.",
+   "Granny resumed selling her beloved potions! A little bird told me you procured some ingredients for her. Well done, young man!",
+   "Shall we carry on? Oh, of course we shall. It means you get to continue engaging with my radiance.",
+   "Cut that out, will you?!"
+  ],
+  "voice_types": {
+   "Hylia_Man_4": 92
+  },
+  "display": "Potion Shopkeeper",
+  "top_cues": [
+   "ConceitedClerk_Scream",
+   "LaughS",
+   "SurpriseM",
+   "Happy",
+   "Sad"
+  ],
+  "nickname": "ConceitedClerk"
+ },
+ {
+  "key": "Npc_Kokiri_009",
+  "actors": {
+   "Npc_Kokiri_009_Adult": 29,
+   "Npc_Kokiri_009_Child": 62
+  },
+  "eras": {
+   "Adult": 29,
+   "Child": 62
+  },
+  "lines": 91,
+  "official": 0,
+  "to_voice": 91,
+  "samples": [
+   "Um, who are you? My big sis told me not to talk to strangers. Sorry.",
+   "My big sis told me to not talk to strangers. Sorry.",
+   "I'm not allowed to talk to strangers. I'm sorry.",
+   "Um, who are you? My big sis told me not to talk to strangers...",
+   "You're that grown-up from before. But you're still a stranger, and Big Sis said I should never talk to strangers.",
+   "The more I look at him, the more he reminds me of Link. If Link grew up, maybe he'd be a lot like this guy?"
+  ],
+  "voice_types": {
+   "Kokiri_Girl_Quiet": 91
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS",
+   "LaughS",
+   "SurpriseL",
+   "Greeting"
+  ],
+  "nickname": "NormalGirl"
+ },
+ {
+  "key": "Npc_Hylia_Soldier_002",
+  "actors": {
+   "Npc_Hylia_Soldier_002": 88
+  },
+  "eras": {
+   "-": 88
+  },
+  "lines": 88,
+  "official": 0,
+  "to_voice": 88,
+  "samples": [
+   "This was once Lady Impa's private residence, but these days it's open to visitors. Everyone is welcome inside, including you. So feel free to come and go as you please!",
+   "Is this your first time visiting? Well then...allow me to welcome you to Kakariko Village.",
+   "Welcome to the lodge, home of to-die-for views of Death Mountain. How can I help you today?",
+   "Talk to you later, then.",
+   "Welcome to the lodge, home of to-die-for views of Death Mountain. You're out late, aren't you?",
+   "Hm? Oh, you're wondering why I'm standing out here if everyone's welcome inside? Well... I mean, take a look for yourself."
+  ],
+  "voice_types": {
+   "Hylia_Man_3": 88
+  },
+  "display": null,
+  "top_cues": [
+   "Greeting",
+   "Think",
+   "TalkPositive",
+   "LaughL",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_003",
+  "actors": {
+   "Npc_Kokiri_003_Adult": 33,
+   "Npc_Kokiri_003_Child": 54
+  },
+  "eras": {
+   "Adult": 33,
+   "Child": 54
+  },
+  "lines": 87,
+  "official": 0,
+  "to_voice": 87,
+  "samples": [
+   "I saw you wandering around... Who are you, mister? We're trying to figure out how to help Saria, so try to keep it down.",
+   "We wanna find Saria, but there are so many monsters, and we don't even have a map!",
+   "Saria hasn't returned from the Forest Temple, but we can't go after her with all those monsters out there.",
+   "Saria... I hope she's OK.",
+   "I wonder if Saria's stuck for the same reason. Too many monsters...",
+   "Kokiri Forest is finally free of monsters. Now I only wonder when Saria will be back. I hope it's soon."
+  ],
+  "voice_types": {
+   "Kokiri_Boy_Spry_2": 87
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Think",
+   "LaughS",
+   "Greeting",
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_005",
+  "actors": {
+   "Npc_Kokiri_005_Adult": 30,
+   "Npc_Kokiri_005_Child": 57
+  },
+  "eras": {
+   "Adult": 30,
+   "Child": 57
+  },
+  "lines": 87,
+  "official": 0,
+  "to_voice": 87,
+  "samples": [
+   "Mido still hasn't come back. I wonder if he's in the Lost Woods. If he doesn't come back soon, I'll be stuck watching his house forever...",
+   "Mido still hasn't come back. I know he's gone to the Lost Woods, but I wonder what for... Maybe he's out there blocking someone's way, just like he used to do...",
+   "Eh? You've got a fairy, so maybe you're one of us... You ARE one of us...right?",
+   "You must be one of us, so I've gotta ask: Did you see Mido on the way here? He went off to the Lost Woods and hasn't come back since.",
+   "I've been keeping an eye on Mido's house for forever. I wonder how long I should stay here...",
+   "I've been watching Mido's house forever. He hasn't come home even once..."
+  ],
+  "voice_types": {
+   "Kokiri_Boy": 87
+  },
+  "display": null,
+  "top_cues": [
+   "Chatting",
+   "Sad",
+   "SurpriseM",
+   "QuestionNormal",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_008",
+  "actors": {
+   "Npc_Gerudo_008": 85
+  },
+  "eras": {
+   "-": 85
+  },
+  "lines": 85,
+  "official": 0,
+  "to_voice": 85,
+  "samples": [
+   "Try out some archery.",
+   "Almost time to open...",
+   "Seems your horse is ready and raring to go too! You'll break some records for sure!",
+   "Your horse seems ready, and you've got your game face on! I bet you'll really nail it!",
+   "Oh wow, your friend's coat is looking luscious and glossy! Clear proof that you treasure her. That must be why the two of you got such a high score. Now, then...",
+   "I can't remember the last time I felt this excited."
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_5": 85
+  },
+  "display": "Horseback-Archery Attendant",
+  "top_cues": [
+   "HappyL",
+   "LaughM",
+   "Notice",
+   "Think",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_003",
+  "actors": {
+   "Npc_Hylia_003_Adult": 38,
+   "Npc_Hylia_003_Child": 47
+  },
+  "eras": {
+   "Adult": 38,
+   "Child": 47
+  },
+  "lines": 85,
+  "official": 0,
+  "to_voice": 85,
+  "samples": [
+   "I'm telling you, I saw it...",
+   "Are you listening to me?",
+   "I'm telling you! I know what I saw! It was an old man's ghost disappearing into a glowing grave in the graveyard!",
+   "Does it matter what I believe? I KNOW what I saw in the graveyard...and it was an old man's ghost!",
+   "No way am I going back there! I don't want to relive that terror!",
+   "Listen... I'm telling the truth... I actually saw the ghost of an old man in the graveyard! I really, truly saw it! You have to believe me!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_2": 85
+  },
+  "display": null,
+  "top_cues": [
+   "RestlessMan_Frightened",
+   "RestlessMan_Gossip",
+   "Angry",
+   "LaughL",
+   "LaughingMan_LaughLSet"
+  ],
+  "nickname": "RestlessMan"
+ },
+ {
+  "key": "Npc_SkullDad",
+  "actors": {
+   "Npc_SkullDad": 85
+  },
+  "eras": {
+   "-": 85
+  },
+  "lines": 85,
+  "official": 0,
+  "to_voice": 85,
+  "samples": [
+   "I feel the curse lifting!",
+   "Thank you! Thank you!",
+   "Ah, it is my honor and a pleasure to speak with you.",
+   "My entire family has been transformed by this terrible curse. It is why I'm trapped in this frightful body.",
+   "This curse has trapped us in these forms for years on end...",
+   "Perhaps you're willing to help us? Perhaps you'll be the one to collect all the tokens from Gold Skulltulas and save us?"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_1": 85
+  },
+  "display": "Cursed Rich Man",
+  "top_cues": [
+   "SkullCursedMan_TalkPositiveS",
+   "SkullCursedMan_HappyS",
+   "SkullCursedMan_Joy",
+   "SkullCursedMan_SurpriseS",
+   "SkullCursedMan_ThinkS"
+  ],
+  "nickname": "SkullCursedMan"
+ },
+ {
+  "key": "Npc_GuidePoe",
+  "actors": {
+   "Npc_GuidePoe_Adult": 84
+  },
+  "eras": {
+   "Adult": 84
+  },
+  "lines": 84,
+  "official": 0,
+  "to_voice": 84,
+  "samples": [
+   "This way, this way...",
+   "Over here, over here...",
+   "The way to the Spirit Temple lies ahead, winding a narrow path through the harsh sands.",
+   "You won't make it without a guide. But don't you worry—I'll show ya the way.",
+   "Seems ya got yourself some eyes of truth...",
+   "You won't make it without a guide. But don't you worry—I'll show ya the way. Just don't fall behind, got it?"
+  ],
+  "voice_types": {
+   "Poe_Guide": 84
+  },
+  "display": "Phantom Guide",
+  "top_cues": [
+   "QuestionNormal",
+   "SurpriseS",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_013",
+  "actors": {
+   "Npc_Kokiri_013_Adult": 29,
+   "Npc_Kokiri_013_Child": 54
+  },
+  "eras": {
+   "Adult": 29,
+   "Child": 54
+  },
+  "lines": 83,
+  "official": 0,
+  "to_voice": 83,
+  "samples": [
+   "Eek— Wait, it's him again.",
+   "Huh?! Y-you have a fairy! Does that mean you're one of us?",
+   "There are monsters everywhere out there, but... somehow you're fine?",
+   "Where's Saria, and why did she leave her house like this? Could she be lost in the Lost Woods?",
+   "Oh no! Maybe Saria can't come home because she's surrounded by monsters... Please, mister! If you find Saria in the Lost Woods, you have to help her!",
+   "Have you seen the Great Deku Tree's child yet? According to my fairy, he's a cute little thing. All nice and round! Maybe later I'll go see him for myself."
+  ],
+  "voice_types": {
+   "Kokiri_Girl": 83
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "LaughS",
+   "Notice",
+   "Sad",
+   "Think"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_001",
+  "actors": {
+   "Npc_Gerudo_001": 82
+  },
+  "eras": {
+   "-": 82
+  },
+  "lines": 82,
+  "official": 0,
+  "to_voice": 82,
+  "samples": [
+   "So... You're searching for the temple, are you?",
+   "Don't worry... You can keep that blade in its sheath, Hylian. Consider yourself safe...for now.",
+   "Then...perhaps you and I can strike a deal. It's simple, really. You grant my request—I give you something in return... What do you say?",
+   "You're actually interested? That's good to hear... We Gerudo know the place you seek well. We call it the Spirit Temple.",
+   "Do we have a deal, Hylian?",
+   "Really? But without us, you'll never make it to the desert, let alone the temple."
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_5": 82
+  },
+  "display": null,
+  "top_cues": [
+   "Alert",
+   "SurpriseL",
+   "TalkPositive",
+   "LaughS",
+   "Ease"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_004",
+  "actors": {
+   "Npc_Goron_004_Adult": 21,
+   "Npc_Goron_004_Adult_FireTemple": 15,
+   "Npc_Goron_004_Child": 46
+  },
+  "eras": {
+   "Adult": 36,
+   "Child": 46
+  },
+  "lines": 82,
+  "official": 0,
+  "to_voice": 82,
+  "samples": [
+   "Don't eat me, goro! I can get you something tastier! Like rock roast! As much as you want!",
+   "What...just happened?!",
+   "Hey, do you know when Big Bro Darunia's gonna be back? Please don't tell me he got lost in the Fire Temple...",
+   "Wh-who are you? Could you be some kinda monster...sent by Ganondorf?!",
+   "Wh-who are you? Could you be some kinda bone monster...sent by Ganondorf?!",
+   "Wh-who are you? Could you be some kinda wooden monster...sent by Ganondorf?!"
+  ],
+  "voice_types": {
+   "Goron_Boy_3": 82
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "LaughS",
+   "Shivering",
+   "Notice",
+   "QuestionNormal"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_001_Shop",
+  "actors": {
+   "Npc_Kokiri_001_Shop_Adult": 11,
+   "Npc_Kokiri_001_Shop_Child": 71
+  },
+  "eras": {
+   "Adult": 11,
+   "Child": 71
+  },
+  "lines": 82,
+  "official": 0,
+  "to_voice": 82,
+  "samples": [
+   "Welcome iiin! We've got plenty to choose from!",
+   "No matter what's happening out in the world, it's always business as usual here.",
+   "We sell shields but not swords.",
+   "Deku sticks and Deku seeds are for kids. I'll sell them to you, but adults can't use them.",
+   "You're a chatty adult, aren't you? Hope you don't mind if I start to repeat myself.",
+   "There aren't many items here for grown-ups... Uh, sorry about that."
+  ],
+  "voice_types": {
+   "Kokiri_Boy_Quiet": 82
+  },
+  "display": "Shop Owner",
+  "top_cues": [
+   "Greeting",
+   "QuestionNormal",
+   "Think",
+   "Notice",
+   "Sad"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_018_Shop",
+  "actors": {
+   "Npc_Hylia_018_Shop_Adult": 13,
+   "Npc_Hylia_018_Shop_Child": 68
+  },
+  "eras": {
+   "Adult": 13,
+   "Child": 68
+  },
+  "lines": 81,
+  "official": 0,
+  "to_voice": 81,
+  "samples": [
+   "Welcome to the Kakariko Village Bazaar!",
+   "I don't think I've got anything new to talk about, but I can tell you what I already told you. Again!",
+   "After we moved our shop here, things really went downhill in Castle Town. It's probably best to stay away from that place now...",
+   "Things in Kakariko Village have gotten scary at times, but we get by.",
+   "You've noticed the dark clouds surrounding Death Mountain, yeah? I don't like 'em. The Gorons live up there, you know. Hopefully those guys are doing OK.",
+   "I got seriously worried when all those fires broke out... Just the thought of my shop burning down and needing to move again had me sweating. And not from the fire!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_Spry_1": 81
+  },
+  "display": "Bazaar Owner",
+  "top_cues": [
+   "Greeting",
+   "QuestionNormal",
+   "Sad",
+   "TalkPositive",
+   "Happy"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_004",
+  "actors": {
+   "Npc_Kokiri_004_Adult": 32,
+   "Npc_Kokiri_004_Child": 49
+  },
+  "eras": {
+   "Adult": 32,
+   "Child": 49
+  },
+  "lines": 81,
+  "official": 0,
+  "to_voice": 81,
+  "samples": [
+   "You have a fairy, so does that mean you're a Kokiri too?",
+   "What are you, mister? Please don't tell me you're some kinda monster.",
+   "Are you a monster?! No, I think you're... a grown-up?!",
+   "I can see now that you have a fairy. Does that mean you're a Kokiri?",
+   "But Kokiri don't grow up... What's going on here?",
+   "For some reason the monsters that were here just...disappeared. I don't know what happened, but I'm not complaining!"
+  ],
+  "voice_types": {
+   "Kokiri_Boy": 81
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Think",
+   "QuestionNormal",
+   "Sad",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_010",
+  "actors": {
+   "Npc_Kokiri_010_Adult": 27,
+   "Npc_Kokiri_010_Child": 53
+  },
+  "eras": {
+   "Adult": 27,
+   "Child": 53
+  },
+  "lines": 80,
+  "official": 0,
+  "to_voice": 80,
+  "samples": [
+   "I don't know you, sir. But...you've got a fairy. Does that mean you're one of us? We're hanging in there... Maybe you can go help the others?",
+   "Everything's OK here! I'll guard against monster attacks with my trusty Deku Shield!",
+   "Don't worry about us. I'll protect my sister with this Deku Shield!",
+   "If you meet a boy out there with a Deku Shield named Link, can you tell him something for me? Please tell him we're all waiting for him to come back!",
+   "His name is Link. It's been a long time since he left, so you probably wouldn't know him...",
+   "With the monsters all gone, this forest is peaceful again. Now I've got to tidy up for whenever Link comes back, tee hee!"
+  ],
+  "voice_types": {
+   "Kokiri_Girl": 80
+  },
+  "display": null,
+  "top_cues": [
+   "NormalGirl_LaughK",
+   "Notice",
+   "Think",
+   "QuestionNormal",
+   "LaughS"
+  ],
+  "nickname": "NormalGirl"
+ },
+ {
+  "key": "Npc_Hylia_002",
+  "actors": {
+   "Npc_Hylia_002_Adult": 36,
+   "Npc_Hylia_002_Child": 43
+  },
+  "eras": {
+   "Adult": 36,
+   "Child": 43
+  },
+  "lines": 79,
+  "official": 0,
+  "to_voice": 79,
+  "samples": [
+   "No way! There is no way you actually saw what you think you saw!",
+   "Do you seriously believe in ghosts?",
+   "If that's what you saw, let's go to the graveyard and see if it's still there! Just lead the way!",
+   "Alright, then you'll go to the graveyard with me? I'm ready whenever you are!",
+   "Alright, then let's head to the graveyard already!",
+   "There's no such thing as ghosts!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_1": 79
+  },
+  "display": null,
+  "top_cues": [
+   "LaughL",
+   "RestlessMan_Gossip",
+   "Happy",
+   "LaughingMan_LaughLSet",
+   "LaughS"
+  ],
+  "nickname": "RestlessMan"
+ },
+ {
+  "key": "Npc_Hylia_061",
+  "actors": {
+   "Npc_Hylia_061_Child": 78
+  },
+  "eras": {
+   "Child": 78
+  },
+  "lines": 78,
+  "official": 0,
+  "to_voice": 78,
+  "samples": [
+   "Maybe... There's already plenty of Hylians in Kakariko Village, so that might be the safest bet. Then again, it might be fun living in Goron City!",
+   "I gave it a try once, but no... I don't think so. Looks like Kakariko is our only choice.",
+   "This is tempting too...",
+   "It's not an easy choice...",
+   "Which do people prefer?",
+   "I can never decide..."
+  ],
+  "voice_types": {
+   "Hylia_Woman_Quiet": 78
+  },
+  "display": null,
+  "top_cues": [
+   "Sad",
+   "Greeting",
+   "LaughS",
+   "Happy"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Soldier_008",
+  "actors": {
+   "Npc_Hylia_Soldier_008_Child": 78
+  },
+  "eras": {
+   "Child": 78
+  },
+  "lines": 78,
+  "official": 0,
+  "to_voice": 78,
+  "samples": [
+   "Nothing unusual here.",
+   "Please, try to stay calm.",
+   "Hmm? I haven't seen you around.",
+   "Hey, it's the out-of-towner!",
+   "Do you need something?",
+   "Do you need something?"
+  ],
+  "voice_types": {
+   "Hylia_Man_1": 78
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "LaughS",
+   "Greeting",
+   "Think",
+   "LaughL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_044",
+  "actors": {
+   "Npc_Hylia_044_Adult": 77
+  },
+  "eras": {
+   "Adult": 77
+  },
+  "lines": 77,
+  "official": 0,
+  "to_voice": 77,
+  "samples": [
+   "You are here and now again!",
+   "I am a seller of rare and not-usual items! Everyone can be my customer!",
+   "Very unfortunate that you are not buying. I wish you goodbye!",
+   "Ooh, you are lacking in the rupees! And I am lacking in wanting to sell for less...",
+   "Oh no, you are lacking in the space to hold any more. Return when this is different!",
+   "Oooh! If you do the buying now, you won't be able to hold all you buy. Is this still your wish?"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_Spry_2": 77
+  },
+  "display": "Carpet-Riding Merchant",
+  "top_cues": [
+   "SurpriseM",
+   "MerchantOnCarpet_HappyL",
+   "MerchantOnCarpet_Sad",
+   "SurpriseS",
+   "Happy"
+  ],
+  "nickname": "MerchantOnCarpet"
+ },
+ {
+  "key": "Npc_Zora_007",
+  "actors": {
+   "Npc_Zora_007": 62,
+   "Npc_Zora_007_Adult": 15
+  },
+  "eras": {
+   "-": 62,
+   "Adult": 15
+  },
+  "lines": 77,
+  "official": 0,
+  "to_voice": 77,
+  "samples": [
+   "What is to be done...",
+   "I'm sorry about Ruto...",
+   "O-oh! Forgive my rudeness. I had not expected that the messenger would be a mere child.",
+   "Which is the situation we find ourselves in now... While it's not unusual for her to slip away, I worry over Her Highness's safety.",
+   "Is that a message from Princess Ruto?! Well? What does it say?",
+   "Apologies for not finding you sooner to express my most heartfelt gratitude. Thank you for saving Princess Ruto."
+  ],
+  "voice_types": {
+   "Zora_Man_2": 77
+  },
+  "display": null,
+  "top_cues": [
+   "Sad",
+   "TalkPositive",
+   "SurpriseS",
+   "SurpriseM",
+   "Happy"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Bonooru",
+  "actors": {
+   "Npc_Bonooru": 76
+  },
+  "eras": {
+   "-": 76
+  },
+  "lines": 76,
+  "official": 0,
+  "to_voice": 76,
+  "samples": [
+   "The wind feels great!",
+   "Hey! Baby! I'm the fantastical scarecrow Bonooru, and I'm known the world over for my great memory!",
+   "Lemme share your song from before. It goes like this!",
+   "If so, I'll help ya remember. It went like this!",
+   "Let's see, if I'm recalling... It goes something like this!",
+   "I can refresh ya, in case you forgot. It went like this!"
+  ],
+  "voice_types": {
+   "Bonooru": 76
+  },
+  "display": "Bonooru",
+  "top_cues": [
+   "Greeting",
+   "Notice",
+   "LaughS",
+   "LaughL",
+   "Sad"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_047",
+  "actors": {
+   "Npc_Hylia_047_Child": 76
+  },
+  "eras": {
+   "Child": 76
+  },
+  "lines": 76,
+  "official": 0,
+  "to_voice": 76,
+  "samples": [
+   "How about some beans?",
+   "How about some magic beans?",
+   "I've got the hottest new item: magic beans!",
+   "These are the super-popular magic beans!",
+   "I got the super-rare magic beans for sale!",
+   "These are the legendary magic beans!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_Quiet": 76
+  },
+  "display": "Bean Seller",
+  "top_cues": [
+   "LaughS",
+   "BeanMerchant_MameTalk",
+   "LaughL",
+   "Happy",
+   "SurpriseM"
+  ],
+  "nickname": "BeanMerchant"
+ },
+ {
+  "key": "Npc_Hylia_067_Shop",
+  "actors": {
+   "Npc_Hylia_067_Shop_Child": 76
+  },
+  "eras": {
+   "Child": 76
+  },
+  "lines": 76,
+  "official": 0,
+  "to_voice": 76,
+  "samples": [
+   "I want to start over.",
+   "Huh? Wha— Oh no! A customer!",
+   "Sorry! We're not quite up and running at the moment. We haven't been getting Bombchu deliveries, so we don't have the stock to use right now.",
+   "Please come back another day.",
+   "Sorry... We're not running games right now.",
+   "Once the Bombchu deliveries from Goron City start back up again, we'll be back in business."
+  ],
+  "voice_types": {
+   "Hylia_Woman_Spry": 76
+  },
+  "display": "Bombchu Bowling Alley Attendant",
+  "top_cues": [
+   "QuestionNormal",
+   "LaughS",
+   "Wakep",
+   "CallOut",
+   "Sleep"
+  ],
+  "nickname": "BombchuBowlingClerk"
+ },
+ {
+  "key": "Npc_Gerudo_016",
+  "actors": {
+   "Npc_Gerudo_016": 74
+  },
+  "eras": {
+   "-": 74
+  },
+  "lines": 74,
+  "official": 0,
+  "to_voice": 74,
+  "samples": [
+   "Halt, intruder! Drop your weapon!",
+   "Since you're already here, are you interested in playing a game?",
+   "How DARE you refuse an invitation from a lady as charming as myself?! Spineless coward!",
+   "How DARE you quit before you've finished playing a game with a lady as lovely as me?! Gutless craven!",
+   "Heh... That's what I was hoping you'd say. But enough chitchat!",
+   "Eh. You know, that whole \"capture the intruder\" bit has really played itself out. Are you here to play my trivia game again?"
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_3": 74
+  },
+  "display": null,
+  "top_cues": [
+   "Ease",
+   "LaughM",
+   "Quiz",
+   "Sad",
+   "Alert"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_008",
+  "actors": {
+   "Npc_Goron_008_Adult": 6,
+   "Npc_Goron_008_Adult_FireTemple": 15,
+   "Npc_Goron_008_Child": 53
+  },
+  "eras": {
+   "Adult": 21,
+   "Child": 53
+  },
+  "lines": 74,
+  "official": 0,
+  "to_voice": 74,
+  "samples": [
+   "I was dreamin' I was playing tag with a fairy...but when I woke up, I found myself here... Did someone carry me while I was sleeping? I don't understand...",
+   "This... It's gotta be a dream... If I go to sleep, everything'll go back to normal.",
+   "Where's the fairy? I wanna play tag again...",
+   "Ya saved me! Thanks a ton! By the way, who are you?",
+   "You a fairy? Wait... Maybe not.",
+   "I met the Great Fairy."
+  ],
+  "voice_types": {
+   "Goron_Boy_Spry": 74
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Shivering",
+   "SurpriseL",
+   "TalkPositive",
+   "Ease"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_011",
+  "actors": {
+   "Npc_Kokiri_011_Adult": 30,
+   "Npc_Kokiri_011_Child": 43
+  },
+  "eras": {
+   "Adult": 30,
+   "Child": 43
+  },
+  "lines": 73,
+  "official": 0,
+  "to_voice": 73,
+  "samples": [
+   "Hello there, fairykins!",
+   "Hi! It's the grown-up with the fairy!",
+   "Do you need to buy something? The monsters can't attack us inside, but you wanna be prepared before heading back out.",
+   "I never knew adults could have their own fairy! I thought it was just us.",
+   "I'm kinda busy right now, fairykins. Let's chat later, OK?",
+   "Ah! It's the grown-up with the fairy! While you're here, you should check out the shop. I think they have stuff for grown-ups too!"
+  ],
+  "voice_types": {
+   "Kokiri_Girl_Spry": 73
+  },
+  "display": null,
+  "top_cues": [
+   "Greeting",
+   "CallFar",
+   "TalkPositive",
+   "SurpriseM",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_007",
+  "actors": {
+   "Npc_Goron_007_Adult": 8,
+   "Npc_Goron_007_Adult_FireTemple": 15,
+   "Npc_Goron_007_Child": 49
+  },
+  "eras": {
+   "Adult": 23,
+   "Child": 49
+  },
+  "lines": 72,
+  "official": 0,
+  "to_voice": 72,
+  "samples": [
+   "Huh? Lookin' at you up close... I can see you're that Hylian guy, goro.",
+   "H-has it finally come to eat me, goro?!",
+   "I taste bad! Real bad! I swear! Please don't eat me, goro!",
+   "I... I'm ready. Come on! Go ahead and eat me. Just don't eat my buddies!",
+   "Waaaahh! I'm gonna be eaten!",
+   "I wish you wouldn't eat me...but if it's between me or my buddies... Eat me, goro!"
+  ],
+  "voice_types": {
+   "Goron_Boy_1": 72
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Shivering",
+   "QuestionNormal",
+   "SurpriseS",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_010",
+  "actors": {
+   "Npc_Goron_010_Adult": 6,
+   "Npc_Goron_010_Adult_FireTemple": 15,
+   "Npc_Goron_010_Child": 51
+  },
+  "eras": {
+   "Adult": 21,
+   "Child": 51
+  },
+  "lines": 72,
+  "official": 0,
+  "to_voice": 72,
+  "samples": [
+   "You don't wanna eat me!",
+   "If you bite me, I'll explode—like a bomb flower! Maybe I'm overselling it...",
+   "Without me around, the bomb flowers in this temple will grow out of control, until one day... KABOOM! No more temple! Or something.",
+   "Dunno who you are, goro, but thank you! Then... am I free to go?",
+   "What's a bomb flower?",
+   "Hey! If it isn't our hero!"
+  ],
+  "voice_types": {
+   "Goron_Boy_2": 72
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Shivering",
+   "Ease",
+   "Happy"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "GossipStone",
+  "actors": {
+   "GossipStone": 71
+  },
+  "eras": {
+   "-": 71
+  },
+  "lines": 71,
+  "official": 0,
+  "to_voice": 71,
+  "samples": [
+   "Now there's a mask I haven't seen for a long time.",
+   "In light of this little connection we have, allow me to let you in on a secret...",
+   "Allow me to let you in on a little secret...",
+   "BO-YO-YO-YOING! Now announcing the current time of day...",
+   "BO-YO-YO-YOING! Once again announcing the current time of day...",
+   "Once again...announcing the current time of day..."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Pierre",
+  "actors": {
+   "Npc_Invisible_Pierre": 1,
+   "Npc_Pierre_CallOcarina": 7,
+   "Npc_Pierre": 63
+  },
+  "eras": {
+   "-": 71
+  },
+  "lines": 71,
+  "official": 0,
+  "to_voice": 71,
+  "samples": [
+   "Heeeey, I wanna join!",
+   "Your beats—I've received them!",
+   "It is I! Pierre, the wandering scarecrow!",
+   "It is I! Pierre, the wandering scarecrow! You've gotten big, big boy!",
+   "To thank you for playing me that soul-shaking melody, I'd like to help you out. If you see straw dancing in the wind, play the Scarecrow Song.",
+   "Lemme hear some soulful music again!"
+  ],
+  "voice_types": {
+   "Pierre": 71
+  },
+  "display": "Pierre",
+  "top_cues": [
+   "Greeting",
+   "LaughS",
+   "LaughL",
+   "Happy",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Kokiri_002",
+  "actors": {
+   "Npc_Kokiri_002_Adult": 22,
+   "Npc_Kokiri_002_Child": 49
+  },
+  "eras": {
+   "Adult": 22,
+   "Child": 49
+  },
+  "lines": 71,
+  "official": 0,
+  "to_voice": 71,
+  "samples": [
+   "I'm glad you like this forest, mister.",
+   "Are you that man who was here before? Did you see that the monsters are gone from the forest?",
+   "Do you think...someone could've defeated the monsters' leader?",
+   "Grown-ups like you are rare in this forest, mister. Up until recently, the forest was full of monsters, but luckily they're gone now.",
+   "I've been staying inside a lot lately, but maybe it's time to go outside and get some sun.",
+   "Why did the monsters suddenly disappear? I guess someone might have defeated the monsters' leader."
+  ],
+  "voice_types": {
+   "Kokiri_Boy_Spry_1": 71
+  },
+  "display": null,
+  "top_cues": [
+   "Think",
+   "QuestionNormal",
+   "Sad",
+   "LaughS",
+   "Greeting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_021_Shop",
+  "actors": {
+   "Npc_Hylia_021_Shop_Child": 70
+  },
+  "eras": {
+   "Child": 70
+  },
+  "lines": 70,
+  "official": 0,
+  "to_voice": 70,
+  "samples": [
+   "Welcome, welcome! We got the best prices on Bombchus, fresh outta Goron City!",
+   "Whew... I could use some shut-eye... Shop's closed, so what's a customer doin' in here?",
+   "If you're itchin' to play with fire, make sure there's an adult around, will ya?",
+   "I'm packing up soon, so if you're lookin' to buy, make it snappy.",
+   "I'm closin' up for the night, so you can either buy somethin' or get to skedaddlin'.",
+   "If yer set on playin' with fire, be careful not to burn yourself, will ya?"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_4": 70
+  },
+  "display": "Bombchu Shopkeeper",
+  "top_cues": [
+   "LaughS",
+   "Greeting",
+   "LaughL",
+   "CallOut",
+   "Think"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_031",
+  "actors": {
+   "Npc_Hylia_031_Child": 68
+  },
+  "eras": {
+   "Child": 68
+  },
+  "lines": 68,
+  "official": 0,
+  "to_voice": 68,
+  "samples": [
+   "Maybe another store...",
+   "What about this shop?",
+   "I could shop all day!",
+   "It's finally reopened?",
+   "From the Bazaar to the Potion Shop... With all the choices, it's hard to know where to start.",
+   "It looks like another shop is gonna open up too. Like I wasn't already spending to my limit..."
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_2": 68
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Think",
+   "Greeting",
+   "SurpriseM",
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Soldier_007",
+  "actors": {
+   "Npc_Hylia_Soldier_007_Child": 68
+  },
+  "eras": {
+   "Child": 68
+  },
+  "lines": 68,
+  "official": 0,
+  "to_voice": 68,
+  "samples": [
+   "It's finally time to switch.",
+   "Did something happen?",
+   "Is the castle alright?",
+   "*sigh* I'm bored... If only there was a bit more chaos around here... Yeah... That'd be way more exciting.",
+   "Wait, you didn't hear that, did you? Hah... Keep it between us, will ya? Say... I was about to break some pots to pass the time. Care to join?",
+   "Throw 'em, slash 'em, whatever. They're gonna get thrown out anyway, so feel free to destroy!"
+  ],
+  "voice_types": {
+   "Hylia_Man_2": 68
+  },
+  "display": null,
+  "top_cues": [
+   "BoredSoldier_Sigh",
+   "LaughS",
+   "QuestionNormal",
+   "Happy",
+   "Notice"
+  ],
+  "nickname": "BoredSoldier"
+ },
+ {
+  "key": "Npc_Hylia_053",
+  "actors": {
+   "Npc_Hylia_053_Adult": 67
+  },
+  "eras": {
+   "Adult": 67
+  },
+  "lines": 67,
+  "official": 0,
+  "to_voice": 67,
+  "samples": [
+   "I asked my son to go find some ingredients, but he still hasn't come back from those strange- smelling woods.",
+   "You can keep asking, and my answer will be the same. I've got no potions to sell you, kid.",
+   "I'm waiting on him to bring me those ingredients. Heh heh heh...",
+   "You've come a long way, I'm sure. This is my shop, Granny's Cauldron. Feel free to poke around. That said, I just reopened, so I've got no wares at the moment.",
+   "Heh heh heh... I see you've returned, but my potions aren't ready yet.",
+   "If I had the proper ingredients, I could make the ultimate potion. Heh heh heh..."
+  ],
+  "voice_types": {
+   "Hylia_Elderly_Woman": 67
+  },
+  "display": "Granny",
+  "top_cues": [
+   "LaughS",
+   "Think",
+   "ApothecaryOldWoman_Sigh",
+   "CunningOldWoman_CreepyLaughS",
+   "Greeting"
+  ],
+  "nickname": "ApothecaryOldWoman"
+ },
+ {
+  "key": "Npc_Kokiri_007",
+  "actors": {
+   "Npc_Kokiri_007_Adult": 22,
+   "Npc_Kokiri_007_Child": 45
+  },
+  "eras": {
+   "Adult": 22,
+   "Child": 45
+  },
+  "lines": 67,
+  "official": 0,
+  "to_voice": 67,
+  "samples": [
+   "I like when it's quiet.",
+   "Whoa, you're a huge person! Are you an...adult?",
+   "You look really tough! I'm kinda jealous... I wish I was big and strong and could go outside the forest too!",
+   "We Kokiri live our whole lives as kids, but I do kinda wonder if there's a way for a kid to get real strong too...",
+   "I bet I wouldn't be scared of anything outside the forest if I was as strong as you, mister! I guess that means I gotta get stronger!",
+   "Some grown-ups have weird faces..."
+  ],
+  "voice_types": {
+   "Kokiri_Boy": 67
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Think",
+   "SurpriseS",
+   "Greeting",
+   "SurpriseM"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_002",
+  "actors": {
+   "Npc_Goron_002_Adult": 16,
+   "Npc_Goron_002_Adult_FireTemple": 15,
+   "Npc_Goron_002_Child": 35
+  },
+  "eras": {
+   "Adult": 31,
+   "Child": 35
+  },
+  "lines": 66,
+  "official": 0,
+  "to_voice": 66,
+  "samples": [
+   "I think there are others still locked away in here. Good luck—I'm counting on you to help 'em!",
+   "C'mon... Don't eat me, please! I'd only give you a belly ache...",
+   "I'm just gonna think about the good ol' days... Scarfin' down rock roast till I was full to bursting...",
+   "What...what's going on?!",
+   "Dancing and eating, eating and dancing. That's living the good life, goro!",
+   "Since that evil dragon's no longer a threat, it's time for me and my dance moves to put Goron City in the party spirit!"
+  ],
+  "voice_types": {
+   "Goron_Boy_3": 66
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Shivering",
+   "Hungry_TalkPositive",
+   "LaughS",
+   "Sigh"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_DaruniaJr",
+  "actors": {
+   "Npc_Goron_DaruniaJr_Adult": 66
+  },
+  "eras": {
+   "Adult": 66
+  },
+  "lines": 66,
+  "official": 0,
+  "to_voice": 66,
+  "samples": [
+   "Dad's taking forever...",
+   "Dad... Where are you?",
+   "It's up to you! Gowo!",
+   "Oh, Uncle Link! OK, no more crying... *sniffle*",
+   "With a Goron Tunic, you'll be able to handle the Fire Temple easy! Just go get the evil dragon and rescue everyone!",
+   "Goron Tunics are made for Hylian visitors who want to see Death Mountain. A little heat won't bother you if you got one of them on. Gowo!"
+  ],
+  "voice_types": {
+   "DaruniaJr": 66
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Happy",
+   "QuestionNormal",
+   "Greeting",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_042",
+  "actors": {
+   "Npc_Hylia_042_Child": 66
+  },
+  "eras": {
+   "Child": 66
+  },
+  "lines": 66,
+  "official": 0,
+  "to_voice": 66,
+  "samples": [
+   "It's quite a stylish song.",
+   "So this is the fad, huh?",
+   "Fashion is...complicated.",
+   "I want to see a mask.",
+   "What's that kid mask?",
+   "Hm? Can't say I've seen you before."
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_1": 66
+  },
+  "display": null,
+  "top_cues": [
+   "TalkPositive",
+   "LaughS",
+   "Think",
+   "Happy",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Soldier_009",
+  "actors": {
+   "Npc_Hylia_Soldier_009_Child": 65
+  },
+  "eras": {
+   "Child": 65
+  },
+  "lines": 65,
+  "official": 0,
+  "to_voice": 65,
+  "samples": [
+   "Oh, let me guess. You thought you'd just waltz on by and meet Princess Zelda, did you?",
+   "Huh... You really want to get through the gate, don't you? Fine, I'll let you in. But in return...",
+   "I think 10 rupees sounds fair to me. What do you say?",
+   "Trust me, kid, there's no way the princess wants to meet you, especially not now.",
+   "Fine. It's probably more than you can afford, anyway. Go home, kid.",
+   "Hah! Pleasure doing business with you. Alright, head on through. But if anyone asks, you got in on your own, got it?"
+  ],
+  "voice_types": {
+   "Hylia_Man_4": 65
+  },
+  "display": null,
+  "top_cues": [
+   "Soldier_DetectionAlert",
+   "TalkPositive",
+   "Happy",
+   "Angry",
+   "Greeting"
+  ],
+  "nickname": "Soldier"
+ },
+ {
+  "key": "GreatDekuTree",
+  "actors": {
+   "Land_Kokiri_DekuTree_A_01": 64
+  },
+  "eras": {
+   "-": 64
+  },
+  "lines": 64,
+  "official": 46,
+  "to_voice": 18,
+  "samples": [
+   "It would seem... I have but a little time left...",
+   "My heart feels heavy. Soon I will no longer be able to protect the forest. I must ensure its safety.",
+   "I will entrust everything to the child.",
+   "Little Navi, where are you?",
+   "I have something to ask of you. I hope it is not too much.",
+   "There is someone with whom I must speak. Bring this young one to me."
+  ],
+  "voice_types": {
+   "Custom_DekuTree": 64
+  },
+  "display": "Great Deku Tree",
+  "top_cues": [
+   "Sad",
+   "Think",
+   "TalkPositive",
+   "Greeting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_001",
+  "actors": {
+   "Npc_Hylia_001_Adult": 41,
+   "Npc_Hylia_001_Child": 21
+  },
+  "eras": {
+   "Adult": 41,
+   "Child": 21
+  },
+  "lines": 62,
+  "official": 0,
+  "to_voice": 62,
+  "samples": [
+   "There's something happening up on Death Mountain! Can you see it from there?",
+   "You can see it way better from up here. Make your way up here, and I'll even give you an amazing item I found!",
+   "This isn't good at all... Something is going on up on Death Mountain!",
+   "This is really bad... Something is going on up on Death Mountain!",
+   "Hey! Hey! Death Mountain has returned to normal! Can you see it from there?",
+   "Death Mountain has returned to normal! How strange..."
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_2": 62
+  },
+  "display": null,
+  "top_cues": [
+   "CallFar",
+   "TalkPositive",
+   "QuestionNormal",
+   "Greeting",
+   "Think"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Soldier_029",
+  "actors": {
+   "Npc_Hylia_Soldier_029_Child": 61
+  },
+  "eras": {
+   "Child": 61
+  },
+  "lines": 61,
+  "official": 0,
+  "to_voice": 61,
+  "samples": [
+   "I should get going...",
+   "Being on watch is a complete waste of time... Why spend my time here when I could be researching ghosts?",
+   "Ah! Oh no, you heard that, didn't you? Well, nothing I can do about it now. Listen close, and I'll let you in on something fascinating...",
+   "Oh... Uh... Nothing, kid. Really, it's nothing. Just forget it, OK?",
+   "Please keep my research a secret, OK?",
+   "Hee hee! Beautiful night, eh, kid? I'm so excited I can hardly hold still! Soon— Yes! Very soon, and my ghost research will finally be complete."
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_3": 61
+  },
+  "display": null,
+  "top_cues": [
+   "ResearchSoldier_LaughSM",
+   "Happy",
+   "LaughS",
+   "Notice",
+   "Soldier_Discovery"
+  ],
+  "nickname": "ResearchSoldier"
+ },
+ {
+  "key": "Npc_Zora_010",
+  "actors": {
+   "Npc_Zora_010": 37,
+   "Npc_Zora_010_Adult": 24
+  },
+  "eras": {
+   "-": 37,
+   "Adult": 24
+  },
+  "lines": 61,
+  "official": 0,
+  "to_voice": 61,
+  "samples": [
+   "Princess! Let's go home!",
+   "Oh, thank goodness...",
+   "Yes! She's quite adorable with her big eyes! Have you spotted her in your travels? Well? Have you?",
+   "With Princess Ruto home, everyone can relax.",
+   "It's getting so late. Princess... Please be safe.",
+   "I suppose dealing with a monster or two is no chore since it was for Princess Ruto."
+  ],
+  "voice_types": {
+   "Zora_Man_2": 61
+  },
+  "display": null,
+  "top_cues": [
+   "LaughL",
+   "CallFar",
+   "Confused",
+   "QuestionNormal",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_066",
+  "actors": {
+   "Npc_Hylia_066_Child": 60
+  },
+  "eras": {
+   "Child": 60
+  },
+  "lines": 60,
+  "official": 0,
+  "to_voice": 60,
+  "samples": [
+   "Have you ever been to Lon Lon Ranch? The milk there is delicious!",
+   "My, you're sure full of energy this morning! Maybe I should drink some Lon Lon milk and get a boost myself!",
+   "I could drink Lon Lon milk all day long! They have it at the Potion Shop but only sell it in half bottles.",
+   "My, aren't you a tiny little thing. With a few sips of milk from Lon Lon Ranch, I bet you'll grow up to be big and strong!",
+   "Watching horses never gets old, am I right?",
+   "Trust me, you haven't lived until you've tried the milk from Lon Lon Ranch! Talon, the owner, is actually the official milk supplier for the royal family."
+  ],
+  "voice_types": {
+   "Hylia_MA_Woman_2": 60
+  },
+  "display": null,
+  "top_cues": [
+   "CallFar",
+   "SurpriseL",
+   "Greeting",
+   "Sad",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Hylia_M_Warrior",
+  "actors": {
+   "Crowd_Hylia_M_Warrior": 60
+  },
+  "eras": {
+   "-": 60
+  },
+  "lines": 60,
+  "official": 0,
+  "to_voice": 60,
+  "samples": [
+   "Princess Zelda's song?",
+   "Haven't heard this one...",
+   "It's calmed down a bit."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseS",
+   "SurpriseL",
+   "SurpriseM"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_036",
+  "actors": {
+   "Npc_Hylia_036_Child": 58
+  },
+  "eras": {
+   "Child": 58
+  },
+  "lines": 58,
+  "official": 0,
+  "to_voice": 58,
+  "samples": [
+   "Looking for something?",
+   "We're about to close!",
+   "It's about that time...",
+   "Things are real slow...",
+   "I don't know what to do.",
+   "Hehehe... I made sale after sale after sale today!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_3": 58
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "StreetMerchant_Attracting",
+   "Sad",
+   "LaughS",
+   "Sleep"
+  ],
+  "nickname": "StreetMerchant"
+ },
+ {
+  "key": "Npc_Hylia_037",
+  "actors": {
+   "Npc_Hylia_037_Child": 58
+  },
+  "eras": {
+   "Child": 58
+  },
+  "lines": 58,
+  "official": 0,
+  "to_voice": 58,
+  "samples": [
+   "Delivering this to...",
+   "Is this the right place?",
+   "Where does this one go?",
+   "It's not this building...",
+   "My work...never ends...",
+   "Huh? Sorry, but I'm busy making deliveries. Leave me to it, will ya?"
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_1": 58
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Think",
+   "Sad",
+   "Ease",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_001",
+  "actors": {
+   "Npc_Goron_001_Adult": 15,
+   "Npc_Goron_001_Adult_FireTemple": 15,
+   "Npc_Goron_001_Child": 27
+  },
+  "eras": {
+   "Adult": 30,
+   "Child": 27
+  },
+  "lines": 57,
+  "official": 0,
+  "to_voice": 57,
+  "samples": [
+   "Well, thanks a ton! I'll leave the rest to you!",
+   "So full... Can't move...",
+   "The bars of this cell won't budge at all. My muscles are sore from tryin' so hard...",
+   "Oh man... I'd give anything to stuff myself full of primo rock roast just one last time, goro...",
+   "Those bars won't move an inch... When I'm this hungry, I barely have the strength to eat.",
+   "I'm back to eating as much rock roast as I want! And it's all thanks to you, Brother!"
+  ],
+  "voice_types": {
+   "Goron_Boy_Spry": 57
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Hungry_TalkPositive",
+   "Shivering",
+   "LaughS",
+   "QuestionNormal"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_025",
+  "actors": {
+   "Npc_Hylia_025": 57
+  },
+  "eras": {
+   "-": 57
+  },
+  "lines": 57,
+  "official": 0,
+  "to_voice": 57,
+  "samples": [
+   "Washed my soul clean!",
+   "Bring me new clothes!",
+   "Aha! En garde, villain!",
+   "Somebody stop this guy!",
+   "My body! My voice! I'm finally back!",
+   "Thank you! THANK YOU!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_2": 57
+  },
+  "display": "Restored First Son",
+  "top_cues": [
+   "LaughL",
+   "Happy",
+   "SkullCursedSon_HappyL",
+   "SkullCursedSon_Clear"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_Hylia_062",
+  "actors": {
+   "Npc_Hylia_062_Child": 57
+  },
+  "eras": {
+   "Child": 57
+  },
+  "lines": 57,
+  "official": 0,
+  "to_voice": 57,
+  "samples": [
+   "I know that place exists, but I've never met anyone who's actually been there. Plus, the Goron at the Bazaar says their staple food is rocks! Can you...eat rocks?",
+   "How are you going to live here if the town gets overrun by monsters?",
+   "What an idyllic view.",
+   "Lovely day for a walk.",
+   "What a beautiful day.",
+   "I should head home..."
+  ],
+  "voice_types": {
+   "Hylia_Woman_2": 57
+  },
+  "display": null,
+  "top_cues": [
+   "Greeting",
+   "Think",
+   "LaughS",
+   "Happy",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_063",
+  "actors": {
+   "Npc_Hylia_063_Child": 57
+  },
+  "eras": {
+   "Child": 57
+  },
+  "lines": 57,
+  "official": 0,
+  "to_voice": 57,
+  "samples": [
+   "A potion of some kind...",
+   "Ooh! Aah! I'm not dancing—my back just itches!",
+   "You think I'm dancing, don't you? Well, it's rude to assume! Ooh! I'm trying my best here... Aah!",
+   "They don't have potions for itchiness... Aah!",
+   "Why won't this itch go away?! Ooh! I need to do something about it soon!",
+   "Maybe the Potion Shop will have something that can help! But every time I move, the itch comes back! Ohh! Ahh!"
+  ],
+  "voice_types": {
+   "Hylia_Woman_1": 57
+  },
+  "display": null,
+  "top_cues": [
+   "Angry",
+   "ItchyWoman_Itch",
+   "Think",
+   "SurpriseM"
+  ],
+  "nickname": "ItchyWoman"
+ },
+ {
+  "key": "Npc_Kokiri_012",
+  "actors": {
+   "Npc_Kokiri_012_Adult": 25,
+   "Npc_Kokiri_012_Child": 32
+  },
+  "eras": {
+   "Adult": 25,
+   "Child": 32
+  },
+  "lines": 57,
+  "official": 0,
+  "to_voice": 57,
+  "samples": [
+   "The monsters outside keep coming back over and over, even if you defeat them. That's why I'm stuck here. I keep wondering if we'll ever be able to go outside again...",
+   "I just want to beat the monsters and return the forest to normal, but they keep coming back again and again... What are we supposed to do?",
+   "You're the guy that came to the shop, aren't you? That was really rough! Monsters were everywhere. Then, poof! They suddenly left. So strange, huh, Link?",
+   "... Oh, sorry. For a moment, I thought you were the boy who left our forest a long time ago. You two smell similar.",
+   "You smell similar to a boy who left the forest a long time ago... Maybe it's just my imagination.",
+   "You smell just like a boy who used to live in this forest. I guess there are others who smell like him. Or something..."
+  ],
+  "voice_types": {
+   "Kokiri_Girl_Quiet": 57
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Notice",
+   "Happy",
+   "LaughS",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Goron_M",
+  "actors": {
+   "Crowd_Goron_M": 57
+  },
+  "eras": {
+   "-": 57
+  },
+  "lines": 57,
+  "official": 0,
+  "to_voice": 57,
+  "samples": [
+   "That's too cold, goro!",
+   "I've heard that before...",
+   "Sounds kinda familiar...",
+   "That's pretty good, goro.",
+   "What a soothing song.",
+   "Big Brother's favorite."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS",
+   "SurpriseL",
+   "Scare",
+   "Ease"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Hylia_M",
+  "actors": {
+   "Crowd_Hylia_M": 57
+  },
+  "eras": {
+   "-": 57
+  },
+  "lines": 57,
+  "official": 0,
+  "to_voice": 57,
+  "samples": [
+   "Ah... I was startled...",
+   "Phew... You saved me."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseL",
+   "SurpriseS",
+   "SurpriseM",
+   "Ease"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Zora_M",
+  "actors": {
+   "Crowd_Zora_M": 57
+  },
+  "eras": {
+   "-": 57
+  },
+  "lines": 57,
+  "official": 0,
+  "to_voice": 57,
+  "samples": [
+   "That was a close one...",
+   "Such a royal melody...",
+   "Ah, it makes me smile...",
+   "The beauty of song...",
+   "Music can be so nice...",
+   "I feel it in my fins."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "Guard",
+   "SurpriseM",
+   "Ease",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_024",
+  "actors": {
+   "Npc_Hylia_024": 55
+  },
+  "eras": {
+   "-": 55
+  },
+  "lines": 55,
+  "official": 0,
+  "to_voice": 55,
+  "samples": [
+   "What a beautiful song!",
+   "Something the matter?",
+   "That's hot, hot, hot!",
+   "That's putting off heat!",
+   "I'm... I'm at a loss for words! Thank you! You didn't have to collect all those tokens, but you did anyway. And now... I'm ME again!",
+   "Please, take this as a thank-you from all of us!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_1": 55
+  },
+  "display": "Restored Rich Man",
+  "top_cues": [
+   "LaughL",
+   "Happy",
+   "SurpriseL",
+   "SkullCursedMan_Joy"
+  ],
+  "nickname": "SkullCursedMan"
+ },
+ {
+  "key": "Npc_Hylia_028",
+  "actors": {
+   "Npc_Hylia_028": 55
+  },
+  "eras": {
+   "-": 55
+  },
+  "lines": 55,
+  "official": 0,
+  "to_voice": 55,
+  "samples": [
+   "For saving our family...",
+   "Aha! En garde, vandal!",
+   "You shouldn't do that!",
+   "Ha! Little troublemaker!",
+   "What's gotten into you?",
+   "What! Am I dreaming?!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_1": 55
+  },
+  "display": "Restored Fourth Son",
+  "top_cues": [
+   "LaughL",
+   "SkullCursedSon_Clear",
+   "SkullCursedSon_HappyL",
+   "Happy"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_Hylia_029",
+  "actors": {
+   "Npc_Hylia_029": 55
+  },
+  "eras": {
+   "-": 55
+  },
+  "lines": 55,
+  "official": 0,
+  "to_voice": 55,
+  "samples": [
+   "Ha! Little troublemaker!",
+   "You shouldn't do that!",
+   "Somebody get this guy!",
+   "The curse! It's finally broken!",
+   "You saved me. THANK YOU!",
+   "You even broke my dad's curse too!"
+  ],
+  "voice_types": {
+   "Hylia_Man_1": 55
+  },
+  "display": "Restored Fifth Son",
+  "top_cues": [
+   "LaughL",
+   "Happy",
+   "SkullCursedSon_HappyL",
+   "SkullCursedSon_Clear"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_Hylia_040",
+  "actors": {
+   "Npc_Hylia_040_Child": 55
+  },
+  "eras": {
+   "Child": 55
+  },
+  "lines": 55,
+  "official": 0,
+  "to_voice": 55,
+  "samples": [
+   "Open yet, I wonder...",
+   "Today's not the day...",
+   "What do we have here?",
+   "Quite the commotion...",
+   "What is going on here?",
+   "Y'hear that ruckus? The owner of the Potion Shop is making some sort of fuss. Something or other about a bug? Sounds like he's having himself a time of it."
+  ],
+  "voice_types": {
+   "Hylia_Elderly_Man_2": 55
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Think",
+   "LaughS",
+   "SurpriseM",
+   "DreamingCustomer_LaughD"
+  ],
+  "nickname": "DreamingCustomer"
+ },
+ {
+  "key": "Npc_Zora_008",
+  "actors": {
+   "Npc_Zora_008_Adult": 25,
+   "Npc_Zora_008_Child": 29
+  },
+  "eras": {
+   "Adult": 25,
+   "Child": 29
+  },
+  "lines": 54,
+  "official": 0,
+  "to_voice": 54,
+  "samples": [
+   "I can't stop sneezing. I can't feel my fingers. I suppose I'll have to go to the Lake Hylia Fishing Pond if I'm going to catch anything.",
+   "Just...don't. Please? This isn't the time for such nonsense.",
+   "I just... I am not up to this right now.",
+   "Besides that, I am not a big fan of the Fishing Pond owner. He's always trying to be funny, but he's mostly just a jerk.",
+   "What is your problem?!",
+   "Hey. I stopped sneezing!"
+  ],
+  "voice_types": {
+   "Zora_Man_4": 54
+  },
+  "display": null,
+  "top_cues": [
+   "Confused",
+   "Sneeze"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Fishman_001",
+  "actors": {
+   "Npc_Hylia_Fishman_001_Adult": 39,
+   "Npc_Hylia_Fishman_001_Child": 14
+  },
+  "eras": {
+   "Adult": 39,
+   "Child": 14
+  },
+  "lines": 53,
+  "official": 0,
+  "to_voice": 53,
+  "samples": [
+   "Hah hah! It got away! As soon as the fish bites, set the hook! Get that right, and the fish is as good as caught!",
+   "Ahh... You're not quick enough. As soon as the fish bites, set the hook!",
+   "Uh... Before you do that... This fish is smaller than the one you already planned to keep. Do you wanna keep this smaller one instead?",
+   "Uh... Before you do that... This fish is bigger than the one you planned to keep. Do you wanna keep this bigger one?",
+   "Huh? Hold on, now... This fish is bigger than your personal record. Ya sure you don't wanna keep this one?",
+   "Hey! Stop toolin' around! That ain't how ya fish!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_4": 53
+  },
+  "display": "Fishing-Pond Man",
+  "top_cues": [
+   "SurpriseL",
+   "Fishman_ReactionM",
+   "Fishman_ReactionL",
+   "Fishman_ReactionS",
+   "Fishman_ReactionLL"
+  ],
+  "nickname": "Fishman"
+ },
+ {
+  "key": "Npc_Zora_006",
+  "actors": {
+   "Npc_Zora_006": 36,
+   "Npc_Zora_006_Adult": 17
+  },
+  "eras": {
+   "-": 36,
+   "Adult": 17
+  },
+  "lines": 53,
+  "official": 0,
+  "to_voice": 53,
+  "samples": [
+   "Through there perhaps?",
+   "If we can't find Princess Ruto soon, the king may grow so preoccupied that he neglects his duties...",
+   "I apologize, but finding Princess Ruto is my utmost priority right now. I would escort you to King Zora myself, but I've been tasked with searching for the princess.",
+   "Well, if it isn't Hyrule's royal messenger!",
+   "Ahem... Perhaps that's enough chatting. I must return to my duties. If you'll excuse me.",
+   "Hah! Good one. As if the royal messenger wouldn't already know..."
+  ],
+  "voice_types": {
+   "Zora_Man_1": 53
+  },
+  "display": null,
+  "top_cues": [
+   "Guard",
+   "SurpriseS",
+   "LaughS",
+   "LaughL",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_026",
+  "actors": {
+   "Npc_Hylia_026": 52
+  },
+  "eras": {
+   "-": 52
+  },
+  "lines": 52,
+  "official": 0,
+  "to_voice": 52,
+  "samples": [
+   "For breaking our curse...",
+   "Is that all you've got?!",
+   "Aha! En garde, scoundrel!",
+   "Do as you will, I guess!",
+   "You shouldn't do that!",
+   "Am I... Is this... My body! I'M SAVED!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_3": 52
+  },
+  "display": "Restored Second Son",
+  "top_cues": [
+   "SkullCursedSon_HappyL",
+   "LaughL",
+   "SkullCursedSon_Clear",
+   "Happy"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_Hylia_038",
+  "actors": {
+   "Npc_Hylia_038_Child": 52
+  },
+  "eras": {
+   "Child": 52
+  },
+  "lines": 52,
+  "official": 0,
+  "to_voice": 52,
+  "samples": [
+   "Nnnyooooom! I'll run as fast as I can...back here to restock!",
+   "If I run into a monster, I'll definitely need some Deku nuts...",
+   "Bang! I'll slam one down and stun the beast. And if that doesn't work, I'll use a Hylian Shield.",
+   "I'd deflect its attack like that, and...",
+   "If a monster eats my Hylian Shield...",
+   "As long as I stock up at the Bazaar, I should be alright even if I do run into a monster..."
+  ],
+  "voice_types": {
+   "Hylia_Man_3": 52
+  },
+  "display": null,
+  "top_cues": [
+   "CautiousMan_Onomatopeia",
+   "QuestionNormal",
+   "Think",
+   "Notice",
+   "TalkPositive"
+  ],
+  "nickname": "CautiousMan"
+ },
+ {
+  "key": "Npc_Hylia_064",
+  "actors": {
+   "Npc_Hylia_064_Child": 52
+  },
+  "eras": {
+   "Child": 52
+  },
+  "lines": 52,
+  "official": 0,
+  "to_voice": 52,
+  "samples": [
+   "What else might sell...",
+   "Not much around here...",
+   "It's all horrifying...",
+   "Terrible, terrible...",
+   "One rupee... Two rupees...",
+   "Hm? Heard me talking to myself, did ya? I suppose I ought to explain, then... You see, a person's heart can never be full if they can't first fill their pockets."
+  ],
+  "voice_types": {
+   "Hylia_Elderly_Woman": 52
+  },
+  "display": null,
+  "top_cues": [
+   "LaughS",
+   "Notice",
+   "Think",
+   "CunningOldWoman_CreepyLaughS",
+   "Sad"
+  ],
+  "nickname": "CunningOldWoman"
+ },
+ {
+  "key": "Npc_Hylia_Soldier_001",
+  "actors": {
+   "Npc_Hylia_Soldier_001": 52
+  },
+  "eras": {
+   "-": 52
+  },
+  "lines": 52,
+  "official": 0,
+  "to_voice": 52,
+  "samples": [
+   "While you're here, would you care to hear about Death Mountain?",
+   "If you're headed up Death Mountain, watch out for falling debris! Unless... You planning to pay the graveyard a little midnight visit?",
+   "While you're here, would you care to hear about Kakariko Village itself?",
+   "While you're here, would you care to hear about the haunted house in town?",
+   "Welcome to Kakariko Village, the famed gateway to Death Mountain.",
+   "Alright, well...head home before it gets dark out, OK, son? We have a deal?"
+  ],
+  "voice_types": {
+   "Hylia_Man_1": 52
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "QuestionNormal",
+   "TalkPositive",
+   "Greeting",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_027",
+  "actors": {
+   "Npc_Hylia_027": 51
+  },
+  "eras": {
+   "-": 51
+  },
+  "lines": 51,
+  "official": 0,
+  "to_voice": 51,
+  "samples": [
+   "From the bottom of our hearts...",
+   "Aha! En garde, miscreant!",
+   "Ha! Looking for trouble?",
+   "WOO-HOO! All those years as a Skulltula, and I'm finally free!",
+   "If I had to guess, we'll probably need about 100 tokens to fix him...",
+   "Until Pop is back to normal, know that we're all counting on you!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_1": 51
+  },
+  "display": "Restored Third Son",
+  "top_cues": [
+   "SkullCursedSon_HappyL",
+   "SkullCursedSon_Clear",
+   "LaughL"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_Hylia_Soldier_006",
+  "actors": {
+   "Npc_Hylia_Soldier_006_Child": 51
+  },
+  "eras": {
+   "Child": 51
+  },
+  "lines": 51,
+  "official": 0,
+  "to_voice": 51,
+  "samples": [
+   "*yawn* I took a nap during the day, but I always get so sleepy when I'm on the night shift.",
+   "It's fiiiinnally morning! Time to go home and get some sleep!",
+   "*yawn* So sleepy... With things feeling so peaceful, why do we need around-the-clock guard?",
+   "Phew! Another night spent hard at work! Impressive focus as usual, self!",
+   "Mommm! You let me sleep in too late again! Uhh... I mean...",
+   "Sorry, sir! Er, wait... Huh?... Ahem! Good little children should be at home and in bed at this hour."
+  ],
+  "voice_types": {
+   "Hylia_Man_2": 51
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Sad",
+   "Wakep",
+   "LaughL",
+   "Sleep"
+  ],
+  "nickname": "LazySoldier"
+ },
+ {
+  "key": "Crowd_Goron_B",
+  "actors": {
+   "Crowd_Goron_B": 51
+  },
+  "eras": {
+   "-": 51
+  },
+  "lines": 51,
+  "official": 0,
+  "to_voice": 51,
+  "samples": [
+   "That's too cold, gowo!",
+   "Makes me wanna dance!",
+   "Song's kinda sad, right?",
+   "Song's kinda sad, right?",
+   "Sounds a bit mysterious!"
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Hylia_W",
+  "actors": {
+   "Crowd_Hylia_W": 51
+  },
+  "eras": {
+   "-": 51
+  },
+  "lines": 51,
+  "official": 0,
+  "to_voice": 51,
+  "samples": [
+   "A beautiful melody...",
+   "A beautiful melody...",
+   "A beautiful melody...",
+   "A beautiful melody...",
+   "A beautiful melody...",
+   "A beautiful melody..."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Hylia_X",
+  "actors": {
+   "Crowd_Hylia_X": 51
+  },
+  "eras": {
+   "-": 51
+  },
+  "lines": 51,
+  "official": 0,
+  "to_voice": 51,
+  "samples": [
+   "What a lovely timbre...",
+   "So pleasant to the ear...",
+   "That seems familiar...",
+   "What a pretty tune...",
+   "That sounds so good...",
+   "Just what I needed..."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Hylia_Y",
+  "actors": {
+   "Crowd_Hylia_Y": 51
+  },
+  "eras": {
+   "-": 51
+  },
+  "lines": 51,
+  "official": 0,
+  "to_voice": 51,
+  "samples": [
+   "What a pretty tune...",
+   "That sounds so good...",
+   "Pleasing to the ear...",
+   "What a pretty song...",
+   "Such a catchy tune...",
+   "Lovely tune. Just lovely..."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Kokiri_BT",
+  "actors": {
+   "Crowd_Kokiri_BT": 51
+  },
+  "eras": {
+   "-": 51
+  },
+  "lines": 51,
+  "official": 0,
+  "to_voice": 51,
+  "samples": [
+   "It's our favorite song."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Kokiri_GT",
+  "actors": {
+   "Crowd_Kokiri_GT": 51
+  },
+  "eras": {
+   "-": 51
+  },
+  "lines": 51,
+  "official": 0,
+  "to_voice": 51,
+  "samples": [
+   "What a unique song..."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS",
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_033",
+  "actors": {
+   "Npc_Hylia_033_Child": 50
+  },
+  "eras": {
+   "Child": 50
+  },
+  "lines": 50,
+  "official": 0,
+  "to_voice": 50,
+  "samples": [
+   "This is fine, isn't it?",
+   "That's good too, right?",
+   "Hey... Didn't you just buy something like that yesterday?",
+   "Huh? Are you seriously telling me you can't tell the difference? *sigh* Still so much to learn.",
+   "Um... I mean, that isn't really my style...",
+   "Well, you always dress the same, so I'm buying it for you anyway."
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_2": 50
+  },
+  "display": null,
+  "top_cues": [
+   "LaughS",
+   "Think",
+   "Sad",
+   "Greeting",
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_035",
+  "actors": {
+   "Npc_Hylia_035_Child": 50
+  },
+  "eras": {
+   "Child": 50
+  },
+  "lines": 50,
+  "official": 0,
+  "to_voice": 50,
+  "samples": [
+   "Something for everyone!",
+   "Get yourself a treat!",
+   "Yes, yes! Right away!",
+   "I'd like to close up soon.",
+   "We're closing soon...",
+   "Time to do inventory."
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_Spry_2": 50
+  },
+  "display": null,
+  "top_cues": [
+   "StreetMerchant_Attracting",
+   "Notice",
+   "Think",
+   "QuestionNormal",
+   "Happy"
+  ],
+  "nickname": "StreetMerchant"
+ },
+ {
+  "key": "Ganondorf",
+  "actors": {
+   "Dm_Npc_Gerudo_Ganondorf": 36,
+   "Enemy_DungeonBoss_Ganondorf": 13
+  },
+  "eras": {
+   "-": 49
+  },
+  "lines": 49,
+  "official": 49,
+  "to_voice": 0,
+  "samples": [
+   "It's been some time, child.",
+   "Worthless little puppet. What a disappointment.",
+   "I cast you into the void between worlds. Burn away! Leave nothing behind!",
+   "You've grown stronger. Of course you have. You are, after all, one of the chosen.",
+   "That useless creature you defeated was nothing more than illusion.",
+   "When you truly face me, you will regret ever drawing that sword of yours."
+  ],
+  "voice_types": {
+   "Custom_Ganondorf": 13
+  },
+  "display": "Ganondorf",
+  "top_cues": [],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_004",
+  "actors": {
+   "Npc_Gerudo_004": 49
+  },
+  "eras": {
+   "-": 49
+  },
+  "lines": 49,
+  "official": 0,
+  "to_voice": 49,
+  "samples": [
+   "Give it your all, Hylian.",
+   "You've returned. How admirable. So the proving grounds haven't crushed your spirit yet? Then by all means...",
+   "May your resolve carry you to the end.",
+   "Hm? Is this some Hylian joke? If you'd like to train something, train yourself to be better with money. Return with the required rupees, and maybe we'll talk.",
+   "Is it payment you lack, or is it courage, I wonder?",
+   "If you're set on challenging yourself, I may be inclined to let you in... However, as an outsider, we demand a payment of 30 rupees for each foray into the grounds."
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_4": 49
+  },
+  "display": "Proving-Grounds Attendant",
+  "top_cues": [
+   "Sad",
+   "Happy",
+   "Chatting",
+   "TalkPositive",
+   "QuestionNormal"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_022_Shop",
+  "actors": {
+   "Npc_Hylia_022_Shop_Child": 49
+  },
+  "eras": {
+   "Child": 49
+  },
+  "lines": 49,
+  "official": 0,
+  "to_voice": 49,
+  "samples": [
+   "Hmm? Hoho, if it isn't a tiny customer! You know where you're at, kiddo?",
+   "This is a game where you open up one of two treasure chests. Open the winner, you advance!",
+   "This fun little test of luck is only 10 rupees per play, so...you'll obviously want to play, right?",
+   "If you win five times in a row... I'll give you a one-time prize—a Piece of Heart! If you guess wrong though, you're done. It's all down to you and your luck!",
+   "If you win five times in a row... I'll give you a one-time prize of 20 rupees! If you guess wrong, though, you're done. It's all down to you and your luck!",
+   "Hmm? Hoho, if it isn't a tiny customer! Nice specs, kiddo. You look ready to go!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_2": 49
+  },
+  "display": "Treasure-Chest Shopkeeper",
+  "top_cues": [
+   "QuestionNormal",
+   "ToughLookingShopKeeper_Greeting",
+   "LaughS",
+   "Greeting",
+   "SurpriseM"
+  ],
+  "nickname": "ToughLookingShopKeeper"
+ },
+ {
+  "key": "Npc_Hylia_Soldier_005",
+  "actors": {
+   "Npc_Hylia_Soldier_005_Child": 49
+  },
+  "eras": {
+   "Child": 49
+  },
+  "lines": 49,
+  "official": 0,
+  "to_voice": 49,
+  "samples": [
+   "All's well around town.",
+   "What're you trying to do?!",
+   "I WILL confiscate that!",
+   "Children shouldn't be out at this hour!",
+   "Hey! How many times do I have to tell you! Children shouldn't be out at this hour! Go home!",
+   "It's getting pretty dark... Hurry home, before the monsters come out."
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_1": 49
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "LaughS",
+   "Soldier_Discovery",
+   "Angry",
+   "Sleep"
+  ],
+  "nickname": "Soldier"
+ },
+ {
+  "key": "Obj_Spirit_PoeHyrule",
+  "actors": {
+   "Obj_Spirit_PoeHyrule": 48
+  },
+  "eras": {
+   "-": 48
+  },
+  "lines": 48,
+  "official": 0,
+  "to_voice": 48,
+  "samples": [
+   "Now I'm nothing more than a spirit... I won't attack you anymore. Just please don't bottle me up.",
+   "Haven't you had enough? Go away, already...",
+   "Ugh... Now I'm nothing more than a spirit...",
+   "I'd raise my hands to surrender...but I don't exactly have any, being a spirit and all.",
+   "Well, this is rather grave, isn't it... Clearly I shouldn't have meddled with such a strapping lad.",
+   "That was a grave fight... Which, you know, is fine. I do love graves and graveyards."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_Medigoron",
+  "actors": {
+   "Npc_Goron_Medigoron_Adult": 39,
+   "Npc_Goron_Medigoron_Child": 9
+  },
+  "eras": {
+   "Adult": 39,
+   "Child": 9
+  },
+  "lines": 48,
+  "official": 0,
+  "to_voice": 48,
+  "samples": [
+   "Interested in one o' my masterworks? Blades are a bit brittle, but they hold a razor edge.",
+   "Knife broke? Guess it really was brittle... But they're still razor sharp, and there's plenty more in stock, sooo...",
+   "Thanks for visiting... Goro.",
+   "Sorry... You don't have enough.",
+   "Let the world witness my masterwork!",
+   "If one of my knives breaks, just come back and buy a replacement. I've got plenty in stock, goro!"
+  ],
+  "voice_types": {
+   "Goron_Boy_1": 48
+  },
+  "display": "Medigoron",
+  "top_cues": [
+   "QuestionNormal",
+   "Notice",
+   "LaughS",
+   "Think",
+   "Greeting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Gerudo_W",
+  "actors": {
+   "Crowd_Gerudo_W": 48
+  },
+  "eras": {
+   "-": 48
+  },
+  "lines": 48,
+  "official": 0,
+  "to_voice": 48,
+  "samples": [
+   "Think that'd scare me?",
+   "You've lost your mind!",
+   "You've lost your mind!",
+   "It's catchy, at least...",
+   "What's that instrument?",
+   "Never heard that one."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseL",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Hylia_B",
+  "actors": {
+   "Crowd_Hylia_B": 48
+  },
+  "eras": {
+   "-": 48
+  },
+  "lines": 48,
+  "official": 0,
+  "to_voice": 48,
+  "samples": [
+   "Really warms the heart...",
+   "You're pretty good, huh?",
+   "Really warms the heart...",
+   "You're pretty good, huh?",
+   "Really warms the heart...",
+   "You're pretty good, huh?"
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseS",
+   "SurpriseM",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Hylia_G",
+  "actors": {
+   "Crowd_Hylia_G": 48
+  },
+  "eras": {
+   "-": 48
+  },
+  "lines": 48,
+  "official": 0,
+  "to_voice": 48,
+  "samples": [
+   "What else? What else?",
+   "I really like that one!",
+   "What else? What else?",
+   "What else? What else?",
+   "What else? What else?",
+   "What else? What else?"
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseS",
+   "SurpriseL",
+   "SurpriseM"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Zora_GT",
+  "actors": {
+   "Crowd_Zora_GT": 48
+  },
+  "eras": {
+   "-": 48
+  },
+  "lines": 48,
+  "official": 0,
+  "to_voice": 48,
+  "samples": [
+   "What a refined timbre...",
+   "A lovely performance.",
+   "A beautiful musical gift.",
+   "I want to listen forever...",
+   "Such a refined timbre...",
+   "I could listen forever..."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseS",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_003",
+  "actors": {
+   "Npc_Gerudo_003": 36,
+   "Npc_Gerudo_003_Adult": 11
+  },
+  "eras": {
+   "-": 36,
+   "Adult": 11
+  },
+  "lines": 47,
+  "official": 0,
+  "to_voice": 47,
+  "samples": [
+   "Good... Good... Perfect!",
+   "Pardon the intrusion.",
+   "Let's see... Appetite...normal! Coat gloss...shiny! Nasal drip...absent! You're in tip-top shape, aren't you, my little cutie pamootie!",
+   "Hm? You're back again?",
+   "This place is a little hideaway for me and Li'l Miss Moo. You better not tell anyone we're here!",
+   "Yeah, well. It's not like I can hide Li'l Miss Moo down here forever, huh?"
+  ],
+  "voice_types": {
+   "Gerudo_Rookie_Soldier": 47
+  },
+  "display": null,
+  "top_cues": [
+   "Alert",
+   "SurpriseM",
+   "SurpriseL",
+   "Humming",
+   "Enchanted"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_006",
+  "actors": {
+   "Npc_Hylia_006_Adult": 24,
+   "Npc_Hylia_006_Child": 23
+  },
+  "eras": {
+   "Adult": 24,
+   "Child": 23
+  },
+  "lines": 47,
+  "official": 0,
+  "to_voice": 47,
+  "samples": [
+   "How about this? Pretty high up, right?",
+   "That guy on the roof over there seems to be up there all the time...even at night.",
+   "There's something about shouting down to the people below that I can't get enough of!",
+   "But sometimes I make eye contact with that guy on the roof over there, and...it's awkward.",
+   "Sometimes I make eye contact with the guy on the roof over there... It's gotten awkward.",
+   "That guy over on the roof is always up there... Doesn't matter if it's day or night."
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_1": 47
+  },
+  "display": null,
+  "top_cues": [
+   "CallFar",
+   "Think",
+   "Happy",
+   "Sad"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_065",
+  "actors": {
+   "Npc_Hylia_065_Child": 47
+  },
+  "eras": {
+   "Child": 47
+  },
+  "lines": 47,
+  "official": 0,
+  "to_voice": 47,
+  "samples": [
+   "Mister Cucco, wait! Let me hug you!",
+   "Why are you running? Let me cuddle you!",
+   "I've gotta go home, but I'll see you and Mister Cucco tomorrow!",
+   "Mister Cucco won't let me hug him, so I'm going home!",
+   "Cuccos are super scary when they're angry, so you gotta be extra nice to them, OK?",
+   "If I hold a cucco, you think I could use it to fly?"
+  ],
+  "voice_types": {
+   "Hylia_Girl_Spry": 47
+  },
+  "display": null,
+  "top_cues": [
+   "Think",
+   "EnergeticGirl_AngryL",
+   "Happy",
+   "QuestionNormal",
+   "LaughS"
+  ],
+  "nickname": "EnergeticGirl"
+ },
+ {
+  "key": "Rauru",
+  "actors": {
+   "Dm_Npc_Hylia_Rauru": 45,
+   "Dm_Npc_Hylia_Rauru_Ghost": 1
+  },
+  "eras": {
+   "-": 46
+  },
+  "lines": 46,
+  "official": 25,
+  "to_voice": 21,
+  "samples": [
+   "Link. Can you hear me?",
+   "Hero Link—save Princess Zelda, imprisoned within, and defeat Ganondorf.",
+   "But beware... He aims to seize the Triforce of Courage, which you possess.",
+   "You will be beset by many dangers in the castle.",
+   "Proceed with caution.",
+   "Hear me, Link. Ganondorf is in that tower."
+  ],
+  "voice_types": {
+   "Custom_Rauru": 46
+  },
+  "display": "Rauru",
+  "top_cues": [
+   "Dm_SageRoom_0005_0001_Sp",
+   "Dm_SageRoom_0005_0008_Sp",
+   "Dm_SageRoom_0005_0015_Sp",
+   "Dm_SageRoom_0005_0017_Sp",
+   "Dm_SageRoom_0005_0020_Sp"
+  ],
+  "nickname": "Dm"
+ },
+ {
+  "key": "Animal_Frog_Blue",
+  "actors": {
+   "Animal_Frog_Blue": 46
+  },
+  "eras": {
+   "-": 46
+  },
+  "lines": 46,
+  "official": 0,
+  "to_voice": 46,
+  "samples": [
+   "That's some fine playing, young fella! Mmm-mm... What a nice melody!",
+   "♪We riiibbit in the rain, just riiibbit in the rain! What a glorious feelin', let's riiibbit again!♪",
+   "Your skill with that ocarina is mighty impressive, young fella! Ribbit! We've had a good meal! Take a token of our froggy gratitude.",
+   "Hey there, young fella! Did you come to play some more tunes for us?",
+   "Hmm... That tune isn't very froggy. Try playing a different song next time.",
+   "That's one froggy tune! Ribbit! Here, take this!"
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_009",
+  "actors": {
+   "Npc_Goron_009_Adult": 6,
+   "Npc_Goron_009_Adult_FireTemple": 15,
+   "Npc_Goron_009_Child": 25
+  },
+  "eras": {
+   "Adult": 21,
+   "Child": 25
+  },
+  "lines": 46,
+  "official": 0,
+  "to_voice": 46,
+  "samples": [
+   "Couldn't even break outta here with my biggest, beefiest body slam. If I don't bust outta here quick, I'll get eaten...",
+   "I've gotta help my friends... But I've got no idea where they are.",
+   "How'm I supposed to get outta here? Until I come up with some sorta plan, I'm gonna keep rollin'...in my mind, at least.",
+   "Whoa! Thanks, Brother!",
+   "Not even my body slam was enough to bust up the boulder in front of Dodongo Cavern...",
+   "I saw that! I saw you drop that bomb flower aaallll the way down below from aaallll the way up there! I never even thought to do that... You're some sorta smart!"
+  ],
+  "voice_types": {
+   "Goron_Boy_3": 46
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Shivering",
+   "Happy",
+   "SurpriseL",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_059",
+  "actors": {
+   "Npc_Hylia_059_Child": 45
+  },
+  "eras": {
+   "Child": 45
+  },
+  "lines": 45,
+  "official": 0,
+  "to_voice": 45,
+  "samples": [
+   "It's going to sell out!",
+   "I need to buy more...",
+   "You still haven't decided? Taking forever won't make things cheaper, you know.",
+   "I just want to make sure I really need this before I buy it...",
+   "We'll take this...that...and this one! We should probably get this one too...",
+   "But we don't really need all of that..."
+  ],
+  "voice_types": {
+   "Hylia_Woman_Spry": 45
+  },
+  "display": null,
+  "top_cues": [
+   "Think",
+   "LaughS",
+   "QuestionNormal",
+   "Angry",
+   "Happy"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_GreatFairy_002",
+  "actors": {
+   "Dm_Npc_GreatFairy_002": 43
+  },
+  "eras": {
+   "-": 43
+  },
+  "lines": 43,
+  "official": 0,
+  "to_voice": 43,
+  "samples": [
+   "Welcome to my fountain. Hee hee... Speechless, are you? I, a Great Fairy of Magic, thank you for your offering. As promised, I will now grant you a new power.",
+   "Now, go seek out my remaining sister. She will gladly lend you her aid.",
+   "Now, go seek out my two remaining sisters. They will gladly lend you their aid.",
+   "Find my sister near Hyrule Castle, and she will grant you a powerful sword technique.",
+   "Find my sister at Zora Fountain, and she will grant you teleportation magic.",
+   "Find my sister within the Death Mountain Crater, and she will grant you more magical power."
+  ],
+  "voice_types": {
+   "GreatFairy": 43
+  },
+  "display": "Great Fairy of Magic",
+  "top_cues": [
+   "TalkPositive",
+   "Greeting",
+   "Happy",
+   "LaughS",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_011",
+  "actors": {
+   "Npc_Hylia_011_Child": 42
+  },
+  "eras": {
+   "Child": 42
+  },
+  "lines": 42,
+  "official": 0,
+  "to_voice": 42,
+  "samples": [
+   "You lost, forest boy? Need help?",
+   "If you came to see Hyrule Castle, you can go straight up the main road here to find it.",
+   "If you want to see the town's back alleys, you can head down that way there.",
+   "There are lots of shops around town, so try not to spend all your rupees in one place.",
+   "Back again, are we, forest boy?",
+   "You alright, forest boy? It's a big town, so try not to get lost."
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_2": 42
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "TalkPositive",
+   "QuestionNormal",
+   "Sad",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_039",
+  "actors": {
+   "Npc_Hylia_039_Child": 42
+  },
+  "eras": {
+   "Child": 42
+  },
+  "lines": 42,
+  "official": 0,
+  "to_voice": 42,
+  "samples": [
+   "You want a piece of me?",
+   "I've still got room...",
+   "Definitely not thirsty...",
+   "What's with the getup, kid? You dressing up like a piece of broccoli?",
+   "Who are you? You here to talk or what?",
+   "Woof... I really overdid it on breakfast."
+  ],
+  "voice_types": {
+   "Hylia_Man_2": 42
+  },
+  "display": null,
+  "top_cues": [
+   "DrunkMan_Retch",
+   "SurpriseM",
+   "SurpriseS",
+   "Think",
+   "SurpriseL"
+  ],
+  "nickname": "DrunkMan"
+ },
+ {
+  "key": "Npc_Hylia_054",
+  "actors": {
+   "Npc_Hylia_054_Child": 42
+  },
+  "eras": {
+   "Child": 42
+  },
+  "lines": 42,
+  "official": 0,
+  "to_voice": 42,
+  "samples": [
+   "Hey, let me tell you...",
+   "Shopkeep, have you heard?",
+   "They say Princess Zelda's dreams are filled with whispers of the divine! Isn't that amazing?",
+   "I've heard this new rumor going around...",
+   "They say security at Hyrule Castle has gotten a lot stricter lately. I wonder why...",
+   "Apparently, the people of Hyrule Castle buy milk from Lon Lon Ranch. It's delicious and packed with nutrients!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Woman_1": 42
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "GossipLovingCustomer_Gossipy",
+   "Happy",
+   "Sad"
+  ],
+  "nickname": "GossipLovingCustomer"
+ },
+ {
+  "key": "Npc_Dream",
+  "actors": {
+   "Npc_Dream": 41
+  },
+  "eras": {
+   "-": 41
+  },
+  "lines": 41,
+  "official": 0,
+  "to_voice": 41,
+  "samples": [
+   "I want to keep going.",
+   "Actually, never mind.",
+   "Return anytime you like. Hoo-hooo!",
+   "Ah, you want to leave the Hall of Fallen Foes?",
+   "Hm... Stay as long as you'd like.",
+   "Ah, Link... Welcome to the Hall of Fallen Foes."
+  ],
+  "voice_types": {
+   "Custom_Kaepora": 41
+  },
+  "display": null,
+  "top_cues": [
+   "Greeting",
+   "TalkPositive",
+   "LaughS",
+   "QuestionNormal",
+   "CallFar"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_056",
+  "actors": {
+   "Npc_Hylia_056_Child": 41
+  },
+  "eras": {
+   "Child": 41
+  },
+  "lines": 41,
+  "official": 0,
+  "to_voice": 41,
+  "samples": [
+   "I know—it's horrible! And I have a bad feeling these prices are here to stay...",
+   "Recently? Did you ever have soft skin?",
+   "I heard there's some Goron brothers who are excellent blacksmiths. Maybe they can make us matching daggers!",
+   "Then let's practice hard and snatch those prizes for ourselves!",
+   "It wasn't that great.",
+   "Hey, I saw that first!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Woman_Spry": 41
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "Happy",
+   "Greeting",
+   "TalkPositive",
+   "Chatting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_057",
+  "actors": {
+   "Npc_Hylia_057_Child": 41
+  },
+  "eras": {
+   "Child": 41
+  },
+  "lines": 41,
+  "official": 0,
+  "to_voice": 41,
+  "samples": [
+   "Is there nothing good?!",
+   "I was looking for that!",
+   "Hey! Keep away from me!",
+   "I wouldn't come near me if I were you!",
+   "I don't have time to talk right now!",
+   "Oh! You startled me. What is it?"
+  ],
+  "voice_types": {
+   "Hylia_MA_Woman_3": 41
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "SurpriseM",
+   "LaughS",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_041",
+  "actors": {
+   "Npc_Hylia_041_Child": 40
+  },
+  "eras": {
+   "Child": 40
+  },
+  "lines": 40,
+  "official": 0,
+  "to_voice": 40,
+  "samples": [
+   "Who will listen to me...",
+   "Hey there, young fella. Care to listen to an old man prattle on?",
+   "Hey there, young fella. Come back to listen to an old man prattle on, have ya?",
+   "I could tell you about the mysterious fountain, but...do you really want to hear about that?",
+   "Ah! I remembered what is supposed to live in the mysterious fountain. Want me to tell you?",
+   "Actually... Hmm... Should I tell him? Or would it be better kept a secret..."
+  ],
+  "voice_types": {
+   "Hylia_Elderly_Man_2": 40
+  },
+  "display": null,
+  "top_cues": [
+   "Greeting",
+   "Happy",
+   "LaughL",
+   "QuestionNormal",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_043",
+  "actors": {
+   "Npc_Hylia_043_Child": 40
+  },
+  "eras": {
+   "Child": 40
+  },
+  "lines": 40,
+  "official": 0,
+  "to_voice": 40,
+  "samples": [
+   "Are you a dog person?",
+   "Whenever night falls, the dogs come romping. They're so friendly—they'll follow you around! Awww! They're so stinkin' cute! I can't resist them!",
+   "Hey. Go play with the dogs for me.",
+   "They're so cute! I'm always thiiis close to bringing one of them home. But I've heard if you get a dog, you'll never get married. I really don't want that outcome...",
+   "*sigh* I want to live with a dog so badly... If I see one, I might just up and bring it home.",
+   "*sigh* I wonder if it's true that you'll never get married if you're single and get a dog."
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_2": 40
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "QuestionNormal",
+   "Sad",
+   "TalkPositive",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_055",
+  "actors": {
+   "Npc_Hylia_055_Child": 40
+  },
+  "eras": {
+   "Child": 40
+  },
+  "lines": 40,
+  "official": 0,
+  "to_voice": 40,
+  "samples": [
+   "I'm in a hurry. Move!",
+   "I've got to head home. Move it!",
+   "I'm in a hurry. Talk to me tomorrow.",
+   "If you insist on being in my way, don't blame me if you get stepped on.",
+   "Don't talk to me right now!",
+   "Can you believe it... They're raising costs again!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Woman_3": 40
+  },
+  "display": null,
+  "top_cues": [
+   "Think",
+   "Chatting",
+   "Angry",
+   "LaughL",
+   "QuestionNormal"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Zora_005",
+  "actors": {
+   "Npc_Zora_005": 27,
+   "Npc_Invisible_Zora_005": 1,
+   "Npc_Zora_005_Adult": 12
+  },
+  "eras": {
+   "-": 28,
+   "Adult": 12
+  },
+  "lines": 40,
+  "official": 0,
+  "to_voice": 40,
+  "samples": [
+   "Oh, hello. I don't remember when we last welcomed a guest.",
+   "Oh? You are not familiar with Lord Jabu-Jabu? I apologize for assuming.",
+   "Oh? I apologize for leaping to that conclusion. Allow me to explain.",
+   "Are you on your way to worship Lord Jabu-Jabu?",
+   "Will you join me in prayer to Lord Jabu-Jabu?",
+   "I might be able to see Lord Jabu-Jabu soon, but for now all I can do is pray here."
+  ],
+  "voice_types": {
+   "Zora_Man_1": 40
+  },
+  "display": null,
+  "top_cues": [
+   "Ease",
+   "Notice",
+   "Sad",
+   "Happy",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Zora_009",
+  "actors": {
+   "Npc_Zora_009": 23,
+   "Npc_Zora_009_Adult": 17
+  },
+  "eras": {
+   "-": 23,
+   "Adult": 17
+  },
+  "lines": 40,
+  "official": 0,
+  "to_voice": 40,
+  "samples": [
+   "Treasure...somewhere?",
+   "Hello, you! You're handling the water as splendidly as ever!",
+   "Since you're so skilled at swimming, would you like to join me in hunting for treasure?",
+   "Oh, you're not only an excellent swimmer, but a skilled diver as well? And you can even touch the bottom here? Quite impressive!",
+   "I must not say this too loudly... There's a great deal of items to be found around these parts.",
+   "... Oh, I speak in jest! Diving isn't easy! It's a totally different skill than swimming. But it is quite impressive that you can swim so well without having fins!"
+  ],
+  "voice_types": {
+   "Zora_Man_3": 40
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "Confused",
+   "Greeting",
+   "LaughS",
+   "Sad"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_002",
+  "actors": {
+   "Npc_Gerudo_002": 23,
+   "Npc_Gerudo_002_Adult": 16
+  },
+  "eras": {
+   "-": 23,
+   "Adult": 16
+  },
+  "lines": 39,
+  "official": 0,
+  "to_voice": 39,
+  "samples": [
+   "What's that you're wearing? Are you trying to mess with me?",
+   "Beyond this gate lies the territory of the Gerudo! Our king, the mighty Ganondorf, has declared that no outsiders be allowed in. That means...get lost!",
+   "Really? Not only are you so brazen that you'd dare set foot in this valley...but you'd also pretend not to know about the Gerudo after I specifically told you about us?!",
+   "That's all I have to say to you, kid. Get lost!",
+   "I've got nothing more to say to you. Get lost!",
+   "Leave knowing that the mighty Ganondorf would not have spared you!"
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_4": 39
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseL",
+   "AngryL",
+   "Happy",
+   "LaughS",
+   "QuestionNormal"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_015",
+  "actors": {
+   "Npc_Gerudo_015": 39
+  },
+  "eras": {
+   "-": 39
+  },
+  "lines": 39,
+  "official": 0,
+  "to_voice": 39,
+  "samples": [
+   "You must be kidding?!",
+   "I still can't believe that Hylian snuck by us like that. It was my first assignment, you know. The way it all went down, I thought for sure I was getting the boot.",
+   "If the mighty Ganondorf were here, well... Those of us who allowed the intruder to enter would've been eliminated by now, along with the intruder himself.",
+   "E-eliminated? His enemies I understand, but does the mighty Ganondorf really show no mercy to his own troops?",
+   "Things weren't so brutal when the exalted Nabooru was in charge...",
+   "Now THAT I want to hear more about! I'm still new around here, and there's still so much I don't know. Can you tell me more about the exalted Nabooru? Pretty please?"
+  ],
+  "voice_types": {
+   "Gerudo_Rookie_Soldier": 39
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "FriendUnconscious",
+   "Chatting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Zora_002",
+  "actors": {
+   "Npc_Zora_002": 24,
+   "Npc_Zora_002_Adult": 15
+  },
+  "eras": {
+   "-": 24,
+   "Adult": 15
+  },
+  "lines": 39,
+  "official": 0,
+  "to_voice": 39,
+  "samples": [
+   "My goodness! You're such a talented swimmer, I could almost believe you have fins. Impressive!",
+   "Can you dive too? You saw my form, didn't you? Flawless! My diving is—from the tip of my nose to the webs of my toes—pure elegance!",
+   "You've returned, have you? I bet if you had fins, you'd be able to dive like we Zora do. If you want to learn, try talking to the instructor.",
+   "I swear all the instructor does is yell at me. There is simply no pleasing him.",
+   "You're such an elegant diver, despite not having any fins or webbing.",
+   "Don't you wish to journey outside of the domain? You're a Zora! Embrace elegance! Until you do, you won't be using the waterway!"
+  ],
+  "voice_types": {
+   "Zora_Man_3": 39
+  },
+  "display": null,
+  "top_cues": [
+   "CallFar",
+   "SurpriseS",
+   "LaughS",
+   "TalkPositive",
+   "LaughL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_012",
+  "actors": {
+   "Npc_Goron_012_Child": 38
+  },
+  "eras": {
+   "Child": 38
+  },
+  "lines": 38,
+  "official": 0,
+  "to_voice": 38,
+  "samples": [
+   "Bombs are back in stock!",
+   "Get your bombs, goro!",
+   "Closing time already?",
+   "Now that we can go into Dodongo Cavern again, I've made SO many bombs!",
+   "Bombs for sale! Get your bombs here!",
+   "You got a bomb bag, little guy? You can't buy bombs without one, goro."
+  ],
+  "voice_types": {
+   "Goron_Boy_2": 38
+  },
+  "display": null,
+  "top_cues": [
+   "Think",
+   "Greeting",
+   "SurpriseM",
+   "QuestionNormal",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_005",
+  "actors": {
+   "Npc_Gerudo_005": 35
+  },
+  "eras": {
+   "-": 35
+  },
+  "lines": 35,
+  "official": 0,
+  "to_voice": 35,
+  "samples": [
+   "So the rumors are true...",
+   "I'll return in the morning...",
+   "Maybe I'll go take a look...",
+   "Does that horse belong to you? She's a beautiful creature... It makes me want a horse of my own all the more...",
+   "Passes aren't granted very often. But since you managed to snag one, why not give horseback archery a try while you're here?",
+   "Then by all means. Guess there's no point in talking about it if you don't have a horse with you to ride."
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_2": 35
+  },
+  "display": null,
+  "top_cues": [
+   "TalkPositive",
+   "Happy",
+   "SurpriseS",
+   "LaughM",
+   "Chatting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_017",
+  "actors": {
+   "Npc_Gerudo_017": 35
+  },
+  "eras": {
+   "-": 35
+  },
+  "lines": 35,
+  "official": 0,
+  "to_voice": 35,
+  "samples": [
+   "You're not allowed to just wander around wherever you please, and especially not in the mighty Ganondorf's war room!",
+   "Enough! I will not waste time speaking with a man who is not the mighty Ganondorf. Go away!",
+   "Enough! I will not waste time speaking with such a strange-looking man! Go away!",
+   "Hey! What are you talking about?!",
+   "Don't go making friends with them!",
+   "Hey! You! What are you doing?!"
+  ],
+  "voice_types": {
+   "Gerudo_Rookie_Soldier": 35
+  },
+  "display": null,
+  "top_cues": [
+   "Alert",
+   "Enchanted",
+   "FriendUnconscious",
+   "Angry",
+   "Think"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Zora_003",
+  "actors": {
+   "Npc_Zora_003": 24,
+   "Npc_Zora_003_Adult": 8
+  },
+  "eras": {
+   "-": 24,
+   "Adult": 8
+  },
+  "lines": 32,
+  "official": 0,
+  "to_voice": 32,
+  "samples": [
+   "Can't believe I survived...",
+   "Wha— Wh-who are you? A Hylian?",
+   "Gah! You must have heard me talking to myself... The embarrassments never cease...",
+   "How could a Zora possibly fail a dive so spectacularly?",
+   "You're back? Come to gawk at the Zora who failed his dive?",
+   "What is it? Come to gawk at the Zora who failed his dive?"
+  ],
+  "voice_types": {
+   "Zora_Man_4": 32
+  },
+  "display": null,
+  "top_cues": [
+   "Sneeze",
+   "Sad",
+   "Shivering"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_034",
+  "actors": {
+   "Npc_Hylia_034_Child": 30
+  },
+  "eras": {
+   "Child": 30
+  },
+  "lines": 30,
+  "official": 0,
+  "to_voice": 30,
+  "samples": [
+   "I can't believe this!",
+   "Everyone needs to listen!",
+   "Are you running errands for your parents? You shouldn't just talk to strangers.",
+   "Hey, Mr. Shopkeeper! Anything on sale today?",
+   "Hey, Mr. Shopkeeper! I wanna buy in bulk. Can you throw in something extra?",
+   "Why won't anyone talk to me?!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_4": 30
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "Sad",
+   "CallOut",
+   "TalkativeCustomer_Call",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Soldier_010",
+  "actors": {
+   "Npc_Hylia_Soldier_010_Child": 30
+  },
+  "eras": {
+   "Child": 30
+  },
+  "lines": 30,
+  "official": 0,
+  "to_voice": 30,
+  "samples": [
+   "Hey! You, in the mask! You're out of here!",
+   "You, with the mask! What do you think you're doing?!",
+   "You, in the mask! Don't move!",
+   "A villain? At this hour?! Come over here—NOW!",
+   "You there! Sneaking around, are you? Well, fun's over!",
+   "Skulking around the castle, huh? Not on my watch!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_2": 30
+  },
+  "display": null,
+  "top_cues": [
+   "Soldier_Discovery",
+   "Soldier_DetectionAlert",
+   "SurpriseS"
+  ],
+  "nickname": "Soldier"
+ },
+ {
+  "key": "Npc_Invisible_GerudoThief",
+  "actors": {
+   "Npc_Invisible_GerudoThief": 29
+  },
+  "eras": {
+   "-": 29
+  },
+  "lines": 29,
+  "official": 0,
+  "to_voice": 29,
+  "samples": [
+   "Hylian wretch! What are you doing?!",
+   "I admit, slipping past our patrols is no small feat. But this is as far as you go!",
+   "Nngh! Not bad for a Hylian... I shall let you live this time... But mark my words... If I catch you again, you will regret not delivering the killing blow!",
+   "You again! I see I have yet to dissuade you from skulking around our fortress. Then allow me to rectify that mistake by leaving you in pieces!",
+   "Behold, my blade art!",
+   "Urgh! I... I have underestimated you. No matter... Know that our next encounter will be your last!"
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_2": 29
+  },
+  "display": null,
+  "top_cues": [
+   "Alert",
+   "Command",
+   "Regain",
+   "Sad",
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_058",
+  "actors": {
+   "Npc_Hylia_058_Child": 29
+  },
+  "eras": {
+   "Child": 29
+  },
+  "lines": 29,
+  "official": 0,
+  "to_voice": 29,
+  "samples": [
+   "Hey! Can't you make this cheaper?",
+   "Sorry, no time to play right now. I really must get going.",
+   "Um, excuse me... Isn't this a little too expensive?",
+   "I'll take...this one! Oh—and that one! Actually, which one is a better deal?",
+   "When business is slow, they should lower their prices even more!",
+   "Everything here will be mine!"
+  ],
+  "voice_types": {
+   "Hylia_Woman_1": 29
+  },
+  "display": null,
+  "top_cues": [
+   "LaughS",
+   "SurpriseS",
+   "Angry",
+   "Greeting",
+   "CallFar"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_009",
+  "actors": {
+   "Npc_Gerudo_009": 28
+  },
+  "eras": {
+   "-": 28
+  },
+  "lines": 28,
+  "official": 0,
+  "to_voice": 28,
+  "samples": [
+   "I have no interest in speaking with some jester who would wear something so ridiculous.",
+   "I don't care how impressive you think you are. I have no interest in speaking with some jester who would wear something so ridiculous.",
+   "Hmph! Who does this puny Hylian think he is?!",
+   "Do we really have to let this guy strut around in such a ridiculous mask?",
+   "So you're the rodent that's been scampering around the fortress...",
+   "In truth, it was more like the twentieth-best time, but..."
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_3": 28
+  },
+  "display": null,
+  "top_cues": [
+   "Angry",
+   "LaughS",
+   "Sad",
+   "Think",
+   "Notice"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Goron_006",
+  "actors": {
+   "Npc_Goron_006_Child": 28
+  },
+  "eras": {
+   "Child": 28
+  },
+  "lines": 28,
+  "official": 0,
+  "to_voice": 28,
+  "samples": [
+   "Didn't ya hear me, buddy? Don't stop me here! What, ya didn't read the sign?",
+   "Ya did it! Ya stopped me in the most perfect spot!",
+   "I've gotta give ya somethin' for succeeding.",
+   "Oh! Shoot. I was gonna give you something, but you don't have a bomb bag. If you get a bomb bag and stop my rollin' again, I'll give you a special little somethin'.",
+   "Aha! It's you! The kid who stopped me in the perfect spot. Do ya like your bomb bag more now that it's bigger? I sure hope so. That'd make me happy.",
+   "This isn't the perfect spot! Check the sign, kid!"
+  ],
+  "voice_types": {
+   "Goron_Boy_Spry": 28
+  },
+  "display": null,
+  "top_cues": [
+   "LaughL",
+   "Angry",
+   "Notice",
+   "TalkPositive"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "NpcSecurityGuard",
+  "actors": {
+   "NpcSecurityGuard": 27
+  },
+  "eras": {
+   "-": 27
+  },
+  "lines": 27,
+  "official": 0,
+  "to_voice": 27,
+  "samples": [
+   "Am I imagining things?",
+   "Guess it was nothing.",
+   "Must be on high alert!",
+   "Shoot... What's going on!",
+   "Oh no, our comrades...",
+   "Grrr... Where are you?!"
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "Soldier_Disarming"
+  ],
+  "nickname": "Soldier"
+ },
+ {
+  "key": "Npc_Gerudo_011",
+  "actors": {
+   "Npc_Gerudo_011": 27
+  },
+  "eras": {
+   "-": 27
+  },
+  "lines": 27,
+  "official": 0,
+  "to_voice": 27,
+  "samples": [
+   "Honestly... Why are we forced to rely on someone who looks so ridiculous?",
+   "Honestly... Why are we forced to rely on someone who looks so silly?",
+   "Honestly... Why are we forced to rely on someone who looks so strange?",
+   "Captain, how much longer do you intend to sully our home with that Hylian? What would the mighty Ganondorf have to say about this, I wonder?",
+   "Captain, please! Leaving the exalted Nabooru's fate in the hands of a Hylian is...",
+   "Honestly... How were we saved by someone who looks so ridiculous?"
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_2": 27
+  },
+  "display": null,
+  "top_cues": [
+   "Command",
+   "Sad",
+   "Chatting",
+   "SurpriseS",
+   "SurpriseM"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_008",
+  "actors": {
+   "Npc_Hylia_008_Adult": 16,
+   "Npc_Hylia_008_Child": 11
+  },
+  "eras": {
+   "Adult": 16,
+   "Child": 11
+  },
+  "lines": 27,
+  "official": 0,
+  "to_voice": 27,
+  "samples": [
+   "Oh, honey... Come what may... I'll protect you... This, I swear.",
+   "Oh, honey... Not nearly...as lost...as I am...in your eyes.",
+   "Oh, honey... Wherever you are...is the only place... I want to be.",
+   "Oh, honey... Dancing with you...all night...brings me joy.",
+   "Oh, honey... Being with you...in this quiet town... is perfection.",
+   "Oh, honey... They say all things...will surely end... but your love...has never wavered."
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_3": 27
+  },
+  "display": null,
+  "top_cues": [
+   "LovingMan_LaughLM"
+  ],
+  "nickname": "LovingMan"
+ },
+ {
+  "key": "Npc_Hylia_060",
+  "actors": {
+   "Npc_Hylia_060_Child": 27
+  },
+  "eras": {
+   "Child": 27
+  },
+  "lines": 27,
+  "official": 0,
+  "to_voice": 27,
+  "samples": [
+   "Owner, do you hear me?",
+   "This one's dirty! Bring out a new one!",
+   "This one's all sticky! Did you just leave it out after someone else already touched it?!",
+   "If this is an older one, it should be cheaper!",
+   "What do you want, boy? I've got nothing for you.",
+   "Huh? If you're lost, ask someone else for help."
+  ],
+  "voice_types": {
+   "Hylia_MA_Woman_Quiet": 27
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "LaughS",
+   "Think",
+   "CallFar"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Soldier_027",
+  "actors": {
+   "Npc_Hylia_Soldier_027_Child": 27
+  },
+  "eras": {
+   "Child": 27
+  },
+  "lines": 27,
+  "official": 0,
+  "to_voice": 27,
+  "samples": [
+   "You sure? Because if you're not lost, that must make you a trespasser. Nah, that couldn't be it... Look, just go home, alright?",
+   "What's wrong? Are you lost?",
+   "I see... Well, I'd help you, but I can't just leave my post.",
+   "Hey! Anyone! I have a lost child here that needs an escort out!",
+   "Come on, kid, can't you just retrace your steps? I still can't leave this spot.",
+   "Hey, aren't you the boy from before? What's going on with the garden's security... Are you really lost this time?"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_1": 27
+  },
+  "display": null,
+  "top_cues": [
+   "LaughS",
+   "QuestionNormal",
+   "Notice",
+   "CallFar",
+   "Chatting"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Zora_004",
+  "actors": {
+   "Npc_Zora_004": 12,
+   "Npc_Zora_004_Adult": 15
+  },
+  "eras": {
+   "-": 12,
+   "Adult": 15
+  },
+  "lines": 27,
+  "official": 0,
+  "to_voice": 27,
+  "samples": [
+   "He's sure to allow it!",
+   "If you have business with King Zora, he's up above us. Be sure to follow royal protocol, so as not to be rude.",
+   "If you have business with King Zora, speak to him from the dais. Even children must follow the rules when it comes to speaking with royalty.",
+   "Hello, ocarina boy. You've returned again?",
+   "A mask, eh? You know, the posture we maintain during prayer is surprisingly hard on my lower back... What if I wore a mask to hide my face rather than using my fins?",
+   "Hmm... How interesting... Perhaps I could wear something similar that honors Lord Jabu-Jabu?"
+  ],
+  "voice_types": {
+   "Zora_Man_3": 27
+  },
+  "display": null,
+  "top_cues": [
+   "Chatting",
+   "Sad",
+   "Greeting",
+   "Think",
+   "TalkPositive"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_050",
+  "actors": {
+   "Npc_Hylia_050_Adult": 15,
+   "Npc_Hylia_050_Child": 11
+  },
+  "eras": {
+   "Adult": 15,
+   "Child": 11
+  },
+  "lines": 26,
+  "official": 0,
+  "to_voice": 26,
+  "samples": [
+   "Hee hee! My knight...in shining armor... I'm so glad...that we moved...",
+   "Hee hee! I didn't think...anyone would find us...up here... He must be lost.",
+   "Hee hee! Castle Town...may be ruined...but you are my home...my darling.",
+   "Hee hee! Wouldn't it be sad...to walk alone...at this hour...my darling?",
+   "Hee hee! I could never...be lost...while I'm with you...my darling.",
+   "Hee hee! For decades... For centuries... Let's be together...my darling."
+  ],
+  "voice_types": {
+   "Hylia_Woman_Quiet": 26
+  },
+  "display": null,
+  "top_cues": [
+   "LovingWoman_LaughLove"
+  ],
+  "nickname": "LovingWoman"
+ },
+ {
+  "key": "Npc_Gerudo_012",
+  "actors": {
+   "Npc_Gerudo_012": 25
+  },
+  "eras": {
+   "-": 25
+  },
+  "lines": 25,
+  "official": 0,
+  "to_voice": 25,
+  "samples": [
+   "You must be a Hylian...",
+   "Great Fairy folklore?",
+   "Tell me the folklore!",
+   "Oh? Not familiar? But you're a Hylian, aren't you? Well, in any case, I can tell you what I know.",
+   "Oh! Well, of course! You seem eager, so I'll tell you what I know.",
+   "\" Near the guardian deity of Zora Domain, look for the secret fountain hidden behind the stone door...\" A Great Fairy who dances on the wind moves you to and fro.\""
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_1": 25
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "SurpriseS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_032",
+  "actors": {
+   "Npc_Hylia_032_Child": 25
+  },
+  "eras": {
+   "Child": 25
+  },
+  "lines": 25,
+  "official": 0,
+  "to_voice": 25,
+  "samples": [
+   "That one! That one too!",
+   "I'm gonna buy absolutely everything in the stores today!",
+   "OK, now wrap up all my purchases for me!",
+   "I cannot wait to show everyone at home what I bought today!",
+   "I'll take...everything!",
+   "I can't wait to see what's for sale today..."
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_3": 25
+  },
+  "display": null,
+  "top_cues": [
+   "Notice",
+   "Happy",
+   "LaughL",
+   "Sad",
+   "SurpriseM"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Obj_Spirit_PoeFlat",
+  "actors": {
+   "Obj_Spirit_PoeFlat": 15,
+   "Obj_Spirit_PoeFlat_Event": 9
+  },
+  "eras": {
+   "-": 24
+  },
+  "lines": 24,
+  "official": 0,
+  "to_voice": 24,
+  "samples": [
+   "Guhhh! I'm finished! The nerve! ... Hmph. Now just a moment... You...don't look like one of Ganondorf's cronies.",
+   "Anyhow, now we brotherly revenants are here, leisurely living out our ghostly lives.",
+   "You...look like you want to say something.",
+   "Erm... Was there anything else you wanted?",
+   "You...look like you want to ask something.",
+   "If you understand, then go. Goodbye."
+  ],
+  "voice_types": {},
+  "display": "Flat the Younger",
+  "top_cues": [
+   "LaughS",
+   "QuestionNormal",
+   "Scream",
+   "Think",
+   "TalkPositive"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_006",
+  "actors": {
+   "Npc_Gerudo_006": 24
+  },
+  "eras": {
+   "-": 24
+  },
+  "lines": 24,
+  "official": 0,
+  "to_voice": 24,
+  "samples": [
+   "I can't imagine how a little thing like you plans to survive the Mirage Desert. But orders are orders, I suppose.",
+   "Come back for more, have you?",
+   "You've mastered the desert, you say? Well...you ARE alive, I suppose...",
+   "The fact is, the mighty Ganondorf's right hand has yet to return, even now... The desert is fraught with danger, even for us Gerudo. Don't let your guard down, OK?",
+   "Remember... When you enter the desert, you do so without the Gerudo behind you. I may be repeating myself, but the desert doesn't care how prepared you think you are.",
+   "I've been expecting you, Hylian. I have orders to let you pass, should you be brave enough to show yourself. To be honest, I was expecting someone a bit...more?"
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_1": 24
+  },
+  "display": null,
+  "top_cues": [
+   "Alert",
+   "SurpriseS",
+   "PanicSurprise"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_018",
+  "actors": {
+   "Npc_Gerudo_018": 24
+  },
+  "eras": {
+   "-": 24
+  },
+  "lines": 24,
+  "official": 0,
+  "to_voice": 24,
+  "samples": [
+   "We've been working day and night because of intruders like you.",
+   "How dare you come here...",
+   "We've been working day and night.",
+   "And once again you show up...",
+   "Pretending to be an animal? You can't fool me!",
+   "Pretending to be a skull? You can't fool me!"
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_1": 24
+  },
+  "display": null,
+  "top_cues": [
+   "SurpriseL",
+   "PanicSurprise",
+   "Alert"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Hylia_GT",
+  "actors": {
+   "Crowd_Hylia_GT": 24
+  },
+  "eras": {
+   "-": 24
+  },
+  "lines": 24,
+  "official": 0,
+  "to_voice": 24,
+  "samples": [
+   "Such a sweet sound...",
+   "That's quite the song.",
+   "Such a sweet sound...",
+   "That's quite the song.",
+   "You're pretty good, huh!"
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseS",
+   "SurpriseM",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Koume",
+  "actors": {
+   "Dm_Npc_Koume": 10,
+   "Enemy_DungeonBoss_Koume": 13
+  },
+  "eras": {
+   "-": 23
+  },
+  "lines": 23,
+  "official": 23,
+  "to_voice": 0,
+  "samples": [
+   "We'll make you regret each and every moment of your treachery against your master, sneaky girl.",
+   "I guess we could, Kotake dear, but I don't think someone so small is worth it.",
+   "So it would seem, Kotake dear.",
+   "We can't let someone so outrageous go unpunished, of course.",
+   "Rise up and exterminate him! This foolish boy who has dared to intrude here!",
+   "Perhaps we didn't brainwash her thoroughly enough, Kotake dear."
+  ],
+  "voice_types": {
+   "Custom_Koume": 13
+  },
+  "display": "Koume",
+  "top_cues": [],
+  "nickname": null
+ },
+ {
+  "key": "Kotake",
+  "actors": {
+   "Dm_Npc_Kotake": 11,
+   "Enemy_DungeonBoss_Kotake": 11
+  },
+  "eras": {
+   "-": 22
+  },
+  "lines": 22,
+  "official": 22,
+  "to_voice": 0,
+  "samples": [
+   "It is very foolish of you to try opposing the mighty Ganondorf. Being Gerudo won't protect you...",
+   "Koume dear. Should we do something about that kid up there?",
+   "Seems like someone came to see us, Koume dear.",
+   "I never thought anyone would make it this far. What an outrageously bold intruder...",
+   "I command you now, loyal servant. Take heed!",
+   "Our sweet little friend has regained her senses, Koume dear."
+  ],
+  "voice_types": {
+   "Custom_Kotake": 11
+  },
+  "display": "Kotake",
+  "top_cues": [],
+  "nickname": null
+ },
+ {
+  "key": "Obj_Spirit_PoeSharp",
+  "actors": {
+   "Obj_Spirit_PoeSharp": 10,
+   "Obj_Spirit_PoeSharp_Event": 8
+  },
+  "eras": {
+   "-": 18
+  },
+  "lines": 18,
+  "official": 0,
+  "to_voice": 18,
+  "samples": [
+   "Guhhh! I'm done for! Unbelievable! ... Hmph. Hold on now... You...don't strike me as someone who would be helping Ganondorf.",
+   "I...lost my composure and acted out of turn. A composer losing his composure...how embarrassing.",
+   "It is I, the elder brother, Sharp.",
+   "Hmm. Teasing ghosts is poor form, you know. But since you apologized, I can overlook it.",
+   "I cannot share details so freely to a complete stranger! If you're an envoy of the royal family, then you would do well to prove yourself over by the nearby crest.",
+   "Phew... It's been some time since I went on such a rampage. I'm pooped. I'm going to do what most ghosts do and return to my grave. Goodbye."
+  ],
+  "voice_types": {},
+  "display": "Sharp the Elder",
+  "top_cues": [
+   "QuestionNormal",
+   "LaughS",
+   "TalkPositive",
+   "Scream"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Animal_Cow",
+  "actors": {
+   "Animal_Cow": 17
+  },
+  "eras": {
+   "-": 17
+  },
+  "lines": 17,
+  "official": 0,
+  "to_voice": 17,
+  "samples": [
+   "Moo-eee! Oh, honey! That ditty! It carries the sweet scent of the pasture in its moolody...",
+   "You've truly lifted my spirits! Even my milk production got a little moost—I mean, boost! I've got plenty to share!",
+   "Don't be a bully, dear!",
+   "And I have to admit, that Keaton Mask sends my heart over the moooon!",
+   "And my, my... That Skull Mask would make any gal fall head over hooves.",
+   "And those handsome features don't hurt either, sweetie. They're unmoostakable, even under that scary mask."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "TalkPositive",
+   "Angry",
+   "Happy"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_004",
+  "actors": {
+   "Npc_Hylia_004_Child": 15
+  },
+  "eras": {
+   "Child": 15
+  },
+  "lines": 15,
+  "official": 0,
+  "to_voice": 15,
+  "samples": [
+   "I wish I could see inside...",
+   "I wish I could forget...",
+   "I love this view of Hyrule Castle...",
+   "On clear nights, you can watch the castle going to sleep... It's beautiful beyond words.",
+   "And the view is all mine. Heh heh...",
+   "Ah, to be Princess Zelda, living out a royal life in a beautiful castle... What am I saying... I'd never make it as a princess."
+  ],
+  "voice_types": {
+   "Hylia_Man_3": 15
+  },
+  "display": null,
+  "top_cues": [
+   "Sad",
+   "Think",
+   "Ease",
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Crowd_Gerudo_W_Warrior",
+  "actors": {
+   "Crowd_Gerudo_W_Warrior": 15
+  },
+  "eras": {
+   "-": 15
+  },
+  "lines": 15,
+  "official": 0,
+  "to_voice": 15,
+  "samples": [],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseM",
+   "SurpriseL",
+   "FriendUnconscious"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Enemy_Scrub_Deku",
+  "actors": {
+   "Enemy_Scrub_Deku": 14
+  },
+  "eras": {
+   "-": 14
+  },
+  "lines": 14,
+  "official": 0,
+  "to_voice": 14,
+  "samples": [
+   "Squee! Gimme a break! Hey...if you let me go, I'll tell you something good.",
+   "So...try it out. If you're brave enough!",
+   "Squee! Let me go! I swear I'll be good. I'll even let you in on a little something to prove it.",
+   "The Deku Scrub triplets up ahead won't let you through unless you tag them in a specific order. I'll give you a hint...",
+   "It's as easy as two...three...one!",
+   "Does this...make me a traitor?"
+  ],
+  "voice_types": {
+   "Scrub_Deku": 14
+  },
+  "display": "Deku Scrub",
+  "top_cues": [
+   "SurpriseS",
+   "QuestionNormal",
+   "TalkPositive"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Enemy_Scrub_Deku_Brothers",
+  "actors": {
+   "Enemy_Scrub_Deku_Brothers": 12
+  },
+  "eras": {
+   "-": 12
+  },
+  "lines": 12,
+  "official": 0,
+  "to_voice": 12,
+  "samples": [
+   "How did you know our secret?! Squee! This is so annoying.",
+   "Oh, fearsome one... I'm so sorry. Not really though.",
+   "How did you know our secret?! Squee! This is so annoying. Hang on. *sniiiiff* I know your smell. Yeah! You're the one I told our secret to!",
+   "Find the boss at night!",
+   "Squee! As soon as you came around, I couldn't help but meddle with ya.",
+   "If you're here, that probably means you forgot what we told you before. Am I right? What am I gonna do with you? Now, listen up."
+  ],
+  "voice_types": {
+   "Scrub_Deku": 12
+  },
+  "display": null,
+  "top_cues": [
+   "QuestionNormal",
+   "Sad"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_010",
+  "actors": {
+   "Npc_Gerudo_010": 11
+  },
+  "eras": {
+   "-": 11
+  },
+  "lines": 11,
+  "official": 0,
+  "to_voice": 11,
+  "samples": [
+   "Blasted carpenters...",
+   "Still loitering around the fortress, are you...",
+   "All I can do is think of the horrors the mighty Ganondorf will subject us to once he finds out about YOU!",
+   "But you couldn't care at all, could you?! Take that ridiculous mask off and finish whatever you came here to do!",
+   "But you couldn't care at all, could you?! Take those ridiculous goggles off and finish whatever you came here to do!",
+   "But you couldn't care at all, could you?! Take that insensitive mask off and finish whatever you came here to do!"
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_1": 11
+  },
+  "display": null,
+  "top_cues": [
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_013",
+  "actors": {
+   "Npc_Gerudo_013": 11
+  },
+  "eras": {
+   "-": 11
+  },
+  "lines": 11,
+  "official": 0,
+  "to_voice": 11,
+  "samples": [
+   "Go on and feign ignorance. I'll repeat myself as much as I need to until you understand.",
+   "\" Got it\"?! How dare you act so cavalier!",
+   "What's the big idea, huh?! Maybe I'll throw you AND your stupid accessories out of here!",
+   "Hmph. Raise your sword to me. I DARE you.",
+   "What is WITH you?! You might look stupid, but you don't have to act that way too! Maybe I'll just toss you AND your silly goggles out of here."
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_3": 11
+  },
+  "display": null,
+  "top_cues": [
+   "Alert",
+   "PanicSurprise"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_007",
+  "actors": {
+   "Npc_Gerudo_007": 10
+  },
+  "eras": {
+   "-": 10
+  },
+  "lines": 10,
+  "official": 0,
+  "to_voice": 10,
+  "samples": [
+   "How long has it been?",
+   "No! I can't give up! I will be the one to find the exalted Nabooru!",
+   "You! How dare you talk to me with that...face. What are you playing at?",
+   "If you're looking for a fight, I'd be happy to give you one. But know this—you'll regret it.",
+   "I want nothing to do with a troublemaker like you.",
+   "Hylians are even more uncivilized than I previously thought..."
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_2": 10
+  },
+  "display": null,
+  "top_cues": [
+   "Think",
+   "Ease",
+   "Angry"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_Soldier_004",
+  "actors": {
+   "Npc_Hylia_Soldier_004_Child": 8
+  },
+  "eras": {
+   "Child": 8
+  },
+  "lines": 8,
+  "official": 0,
+  "to_voice": 8,
+  "samples": [
+   "To the Temple of Time...",
+   "Princess Zelda had something she insisted the boy from the forest needed to have...",
+   "Forest boy... Did Princess Zelda get you whatever it was she meant for you to have?",
+   "If the princess was able to give you anything before she fled...take it to the Temple of Time... Don't worry about me... Just go!"
+  ],
+  "voice_types": {
+   "Hylia_Man_1": 8
+  },
+  "display": null,
+  "top_cues": [
+   "DyingSoldier_TalkPositiveD"
+  ],
+  "nickname": "DyingSoldier"
+ },
+ {
+  "key": "Narrator",
+  "actors": {
+   "Npc_Narrator": 7
+  },
+  "eras": {
+   "-": 7
+  },
+  "lines": 7,
+  "official": 7,
+  "to_voice": 0,
+  "samples": [
+   "Long ago, there was a land called Hyrule, created by beings of supreme divinity.",
+   "At the very edge of this kingdom, there lay a small forest.",
+   "Within it, an ancient, solitary tree quietly watched over the inhabitants of the forest.",
+   "These forest dwellers were called the Kokiri.",
+   "Each had a fairy companion, and they lived out their innocent lives in these woods.",
+   "However, there was one particular boy..."
+  ],
+  "voice_types": {},
+  "display": "Narrator",
+  "top_cues": [],
+  "nickname": null
+ },
+ {
+  "key": "Npc_GreatFairy_006",
+  "actors": {
+   "Dm_Npc_GreatFairy_006": 6
+  },
+  "eras": {
+   "-": 6
+  },
+  "lines": 6,
+  "official": 0,
+  "to_voice": 6,
+  "samples": [
+   "I've made your whole body as hard as steel. With your enhanced defenses, any damage you're dealt will now be halved."
+  ],
+  "voice_types": {
+   "GreatFairy": 6
+  },
+  "display": "Great Fairy of Courage",
+  "top_cues": [
+   "LaughS",
+   "Happy"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_GreatFairy_001",
+  "actors": {
+   "Dm_Npc_GreatFairy_001": 6
+  },
+  "eras": {
+   "-": 6
+  },
+  "lines": 6,
+  "official": 0,
+  "to_voice": 6,
+  "samples": [
+   "Thank you for your offering. I can tell you're eager. Ohoho... No need to get yourself all worked up. Here, this is for you.",
+   "I've made your spin attack stronger. The spin attack allows you to strike nearby foes, but you will be vulnerable while charging it up. Bear that in mind."
+  ],
+  "voice_types": {
+   "GreatFairy": 6
+  },
+  "display": "Great Fairy of Power",
+  "top_cues": [
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_GreatFairy_003",
+  "actors": {
+   "Dm_Npc_GreatFairy_003": 6
+  },
+  "eras": {
+   "-": 6
+  },
+  "lines": 6,
+  "official": 0,
+  "to_voice": 6,
+  "samples": [
+   "Thank you for your offering. Now allow me to grant you the new power that you seek. You just stand right there..."
+  ],
+  "voice_types": {
+   "GreatFairy": 6
+  },
+  "display": "Great Fairy of Magic",
+  "top_cues": [
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_GreatFairy_004",
+  "actors": {
+   "Dm_Npc_GreatFairy_004": 6
+  },
+  "eras": {
+   "-": 6
+  },
+  "lines": 6,
+  "official": 0,
+  "to_voice": 6,
+  "samples": [
+   "Thank you for your gracious offering. You must want a new power, hm? Ohoho... It'd be cruel to keep you waiting, I suppose. Now hold still.",
+   "I've enhanced your magical ability. Now you have twice as much magic power. But don't get carried away... OK?"
+  ],
+  "voice_types": {
+   "GreatFairy": 6
+  },
+  "display": "Great Fairy of Wisdom",
+  "top_cues": [
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_GreatFairy_005",
+  "actors": {
+   "Dm_Npc_GreatFairy_005": 6
+  },
+  "eras": {
+   "-": 6
+  },
+  "lines": 6,
+  "official": 0,
+  "to_voice": 6,
+  "samples": [
+   "Thank you for your offering. Now allow me to grant you your new power. You may feel a little pinch, but just be a good boy and hold still for me.",
+   "There. That wasn't so bad, was it? Nayru's Love will shield you from all damage. But be careful. The magic doesn't last forever."
+  ],
+  "voice_types": {
+   "GreatFairy": 6
+  },
+  "display": "Great Fairy of Magic",
+  "top_cues": [
+   "LaughS"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Hylia_ImperialSoldier_001",
+  "actors": {
+   "Npc_Hylia_ImperialSoldier_001_Child": 6
+  },
+  "eras": {
+   "Child": 6
+  },
+  "lines": 6,
+  "official": 0,
+  "to_voice": 6,
+  "samples": [
+   "Hey! Have some decorum!",
+   "Stop that! Have you forgotten where you are?!",
+   "Who goes there?! Who's that throwing things?",
+   "Hey! There's a time and place for such games, and it's neither here nor now!",
+   "Hmph! It wouldn't do to put the princess in harm's way, so I'll spare you your punishment this time.",
+   "If any harm came to Lady Impa, it'd be trouble for me, so no punishment for you...this time!"
+  ],
+  "voice_types": {
+   "Hylia_MA_Man_3": 6
+  },
+  "display": null,
+  "top_cues": [
+   "Soldier_Coercion"
+  ],
+  "nickname": "Soldier"
+ },
+ {
+  "key": "Twinrova",
+  "actors": {
+   "Npc_KotakeKoume": 4,
+   "Enemy_DungeonBoss_Twinrova": 1
+  },
+  "eras": {
+   "-": 5
+  },
+  "lines": 5,
+  "official": 5,
+  "to_voice": 0,
+  "samples": [
+   "Dazzling! Dynamite! Attack!",
+   "Dazzling! Dynamite! Attack!",
+   "Come now, boy. Don't be scared. I just want to play with you.",
+   "We'll come back to haunt you!",
+   "We'll come back to haunt you!"
+  ],
+  "voice_types": {
+   "Custom_Twinrova": 1
+  },
+  "display": "Kotake & Koume",
+  "top_cues": [],
+  "nickname": null
+ },
+ {
+  "key": "NPC_Scrub_Deku_TargetPractice",
+  "actors": {
+   "NPC_Scrub_Deku_TargetPractice": 5
+  },
+  "eras": {
+   "-": 5
+  },
+  "lines": 5,
+  "official": 0,
+  "to_voice": 5,
+  "samples": [
+   "Look at you go! You're amazing, squee!",
+   "You got it! You got it again!",
+   "Squee, 100 percent accuracy! I'm thoroughly impressed. Here's something special, just for you.",
+   "Squee, 100 percent accuracy! I don't have anything special, so I hope this is enough for you.",
+   "Huh... You can't hold any more green rupees. You're rich! You don't need to come here anymore, obviously."
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [],
+  "nickname": null
+ },
+ {
+  "key": "Npc_Gerudo_014",
+  "actors": {
+   "Npc_Gerudo_014": 4
+  },
+  "eras": {
+   "-": 4
+  },
+  "lines": 4,
+  "official": 0,
+  "to_voice": 4,
+  "samples": [
+   "Ah, exalted Nabooru...",
+   "Get down from there IMMEDIATELY! On second thought... I know just where an insolent fool such as yourself can go. Straight to prison!"
+  ],
+  "voice_types": {
+   "Gerudo_Normal_Soldier_2": 4
+  },
+  "display": null,
+  "top_cues": [
+   "Alert",
+   "SurpriseL"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "NPC_Poe_Voice",
+  "actors": {
+   "NPC_Poe_Voice": 3
+  },
+  "eras": {
+   "-": 3
+  },
+  "lines": 3,
+  "official": 0,
+  "to_voice": 3,
+  "samples": [
+   "Huh? Do you intend to drink me?"
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "Scream"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "NPC_Poe_Big_Voice",
+  "actors": {
+   "NPC_Poe_Big_Voice": 3
+  },
+  "eras": {
+   "-": 3
+  },
+  "lines": 3,
+  "official": 0,
+  "to_voice": 3,
+  "samples": [
+   "You don't really intend to DRINK me, do you?"
+  ],
+  "voice_types": {},
+  "display": null,
+  "top_cues": [
+   "SurpriseS",
+   "Scream"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Enemy_Scrub_ForestStage_Elder",
+  "actors": {
+   "Enemy_Scrub_ForestStage_Elder": 3
+  },
+  "eras": {
+   "-": 3
+  },
+  "lines": 3,
+  "official": 0,
+  "to_voice": 3,
+  "samples": [
+   "According to the youngsters...your face is truly divine. Please accept this as an offering: a bag large enough to hold many Deku sticks.",
+   "According to the youngsters...you have a truly frightening face. I've got a bag for you that's large enough to hold many Deku nuts, so, please, spare me!"
+  ],
+  "voice_types": {
+   "Scrub_ForestStage_Elder": 3
+  },
+  "display": null,
+  "top_cues": [
+   "TalkPositive",
+   "ForestStageElderSpell"
+  ],
+  "nickname": null
+ },
+ {
+  "key": "Npc_SkullChild_001",
+  "actors": {
+   "Npc_SkullChild_001": 2
+  },
+  "eras": {
+   "-": 2
+  },
+  "lines": 2,
+  "official": 0,
+  "to_voice": 2,
+  "samples": [
+   "Yeaaarrgh! I'm cursed!",
+   "I'm drooling... I'm drooling all over myself..."
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_2": 2
+  },
+  "display": "Cursed First Son",
+  "top_cues": [
+   "SkullCursedSon_TalkPositiveS"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_SkullChild_002",
+  "actors": {
+   "Npc_SkullChild_002": 2
+  },
+  "eras": {
+   "-": 2
+  },
+  "lines": 2,
+  "official": 0,
+  "to_voice": 2,
+  "samples": [
+   "Yeaaarrgh! I'm cursed!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_3": 2
+  },
+  "display": "Cursed Second Son",
+  "top_cues": [
+   "SkullCursedSon_TalkPositiveS"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_SkullChild_003",
+  "actors": {
+   "Npc_SkullChild_003": 2
+  },
+  "eras": {
+   "-": 2
+  },
+  "lines": 2,
+  "official": 0,
+  "to_voice": 2,
+  "samples": [
+   "Yeaaarrgh! I'm cursed!",
+   "Ohhh... Prey... The prey has arrived."
+  ],
+  "voice_types": {
+   "Hylia_Man_Quiet_1": 2
+  },
+  "display": "Cursed Third Son",
+  "top_cues": [
+   "SkullCursedSon_TalkPositiveS"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_SkullChild_004",
+  "actors": {
+   "Npc_SkullChild_004": 2
+  },
+  "eras": {
+   "-": 2
+  },
+  "lines": 2,
+  "official": 0,
+  "to_voice": 2,
+  "samples": [
+   "Yeaaarrgh! I'm cursed!"
+  ],
+  "voice_types": {
+   "Hylia_Man_Spry_1": 2
+  },
+  "display": "Cursed Fourth Son",
+  "top_cues": [
+   "SkullCursedSon_TalkPositiveS"
+  ],
+  "nickname": "SkullCursedSon"
+ },
+ {
+  "key": "Npc_SkullChild_005",
+  "actors": {
+   "Npc_SkullChild_005": 2
+  },
+  "eras": {
+   "-": 2
+  },
+  "lines": 2,
+  "official": 0,
+  "to_voice": 2,
+  "samples": [
+   "Yeaaarrgh! I'm cursed!",
+   "Hehe...looks tasty..."
+  ],
+  "voice_types": {
+   "Hylia_Man_1": 2
+  },
+  "display": "Cursed Fifth Son",
+  "top_cues": [
+   "SkullCursedSon_TalkPositiveS"
+  ],
+  "nickname": "SkullCursedSon"
+ }
+]
