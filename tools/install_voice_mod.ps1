@@ -16,7 +16,7 @@ param(
     [ValidateSet("install", "remove")][string]$Action = "install",
     [string]$Stage,
     [ValidateSet(0, 1, 2, 3)][int]$Tier = 0,
-    [string]$ReleaseBaseUrl = "https://github.com/OWNER/REPO/releases/latest/download",
+    [string]$ReleaseBaseUrl = "https://github.com/jonazune/hey-listen/releases/latest/download",
     [string]$LocalTierSource,
     [string]$CacheDir = (Join-Path $env:LOCALAPPDATA "OotVoiceMod\cache"),
     [string]$GameDir,
