@@ -23,10 +23,13 @@ To remove it, run `Remove Voice Mod.bat` (or the per-target one for Hookshot/Lon
 
 ## Tested with
 
+Most of the actual day-to-day testing has been on **Longshot** — that's the one this has seen the most
+play-time on. The others are confirmed working, just with less mileage so far.
+
 | | Status |
 |---|---|
+| **Longshot** (native PC recompilation) | ✅ Confirmed working, most tested |
 | **Hookshot** (native PC recompilation) | ✅ Confirmed working |
-| **Longshot** (native PC recompilation) | ✅ Confirmed working |
 | **Fritchii** (emulator) | ✅ Confirmed working |
 | **eden** (emulator, Fritchii's predecessor) | ⚠️ Same install format as Fritchii, not independently re-tested recently |
 | Any other emulator (Ryujinx, suyu, sudachi, citron, etc.) | ❌ Not tested |
