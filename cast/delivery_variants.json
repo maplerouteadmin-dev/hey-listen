@@ -1,0 +1,49 @@
+{
+ "Navi": {
+  "urgent": {"delivery": "Urgent and sharp, shouting a warning, breathless with real alarm", "any_exclaim": true, "keywords": ["watch out", "look out", "hurry", "careful", "danger", "behind you"]},
+  "warm": {"delivery": "Fond and warm beneath the nagging, affectionate and soft", "keywords": ["glad", "well done", "good job", "thank you", "proud of you"]}
+ },
+ "Npc_Kokiri_Saria": {
+  "wistful": {"delivery": "Wistful and tender, soft with old memory and quiet longing", "keywords": ["remember", "miss you", "forever", "promise", "someday"]}
+ },
+ "Npc_Hylia_Sheik": {
+  "urgent": {"delivery": "Sharp and urgent, still controlled but edged with real alarm", "any_exclaim": true, "keywords": ["hurry", "must", "danger", "careful"]}
+ },
+ "Npc_Kaepora": {
+  "urgent": {"delivery": "Abrupt and sharp, cutting the lecture short in real alarm", "any_exclaim": true, "keywords": ["danger", "careful", "watch"]}
+ },
+ "Npc_Hylia_Zelda:Child": {
+  "scared": {"delivery": "Frightened and urgent, voice tightening with real fear", "any_exclaim": true, "keywords": ["help", "danger", "scared", "afraid"]}
+ },
+ "Npc_Zora_Ruto:Child": {
+  "scared": {"delivery": "Panicked and demanding, shrill with real fear beneath the bossiness", "any_exclaim": true, "keywords": ["help", "scared", "daddy", "father"]}
+ },
+ "Npc_Goron_Darunia": {
+  "warm": {"delivery": "Big booming belly laugh, brotherly warmth bursting through", "keywords": ["ha ha", "brother", "friend", "great job", "wonderful", "hahaha"]},
+  "angry": {"delivery": "Thunderous rage, voice shaking the room", "any_exclaim": true, "keywords": ["fire", "blaze", "doom", "curse", "attack", "fool"]}
+ },
+ "DekuTreeSprout": {
+  "scared": {"delivery": "Startled and alarmed, childish panic rising in pitch", "any_exclaim": true, "keywords": ["scared", "help", "danger"]}
+ },
+ "Nabooru": {
+  "fierce": {"delivery": "Fierce when roused, sharp commanding edge, real danger in her voice", "any_exclaim": true, "keywords": ["traitor", "fight", "attack", "fool", "dare"]}
+ },
+ "Npc_Hylia_Impa": {
+  "urgent": {"delivery": "Sharp and commanding, voice cracking like a whip in real danger", "any_exclaim": true, "keywords": ["danger", "hurry", "now", "careful"]}
+ },
+ "Npc_Zora_Ruto:Adult": {
+  "warm": {"delivery": "Teasing dropped away, openly warm and tender", "keywords": ["love", "dear", "promise", "forever", "thank you"]}
+ },
+ "Rauru": {
+  "grave": {"delivery": "Grave and sorrowful, the full weight of age and failure in every word, voice heavy and nearly breaking", "keywords": ["fell", "darkness", "failed", "sorrow", "forgive", "grief"]}
+ },
+ "GreatDekuTree": {
+  "weak": {"delivery": "Weak and failing, breath rattling, voice fading under mortal pain", "keywords": ["dying", "curse", "poison", "forgive", "no more", "cursed"]}
+ },
+ "Npc_Hylia_Zelda:Adult": {
+  "urgent": {"delivery": "Quietly desperate, controlled fear beneath royal poise", "any_exclaim": true, "keywords": ["danger", "hurry", "must", "careful"]}
+ },
+ "Ganondorf": {
+  "raging": {"delivery": "Towering fury, voice erupting in violent rage", "any_exclaim": true, "keywords": ["destroy", "die", "fool", "power", "pathetic", "triforce"]}
+ }
+}

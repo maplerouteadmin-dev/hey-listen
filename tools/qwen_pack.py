@@ -57,6 +57,26 @@ def spoken(row):
     return re.sub(r"\s+", " ", text).strip()
 
 
+def load_delivery_variants():
+    path = os.path.join(os.path.dirname(SHEET), "delivery_variants.json")
+    return json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+
+
+def classify_variant(variants, slot, text):
+    """Which reference performance a line should be cloned against. A character can have
+    several (e.g. Navi's default nagging vs. shouting a warning); most lines stay "default"."""
+    spec = variants.get(slot)
+    if not spec:
+        return "default"
+    t = text.lower()
+    for name, v in spec.items():
+        if v.get("any_exclaim") and "!" in text:
+            return name
+        if any(k in t for k in v.get("keywords", ())):
+            return name
+    return "default"
+
+
 def plausible(seconds, text):
     if seconds < 0.3:
         return False
@@ -131,6 +151,7 @@ def main():
     if os.path.exists(overrides):   # descriptions changed after listening
         for slot, voice in json.load(open(overrides, encoding="utf-8")).items():
             sheet[slot]["voice"] = voice
+    variants = load_delivery_variants()
     rows = []
     seen = set()
     say_path = os.path.join(os.path.dirname(SHEET), "say_overrides.json")
@@ -157,28 +178,34 @@ def main():
     models = Models(torch, Qwen3TTSModel)
     audio_secs = gen_secs = chars = lines_done = 0
 
-    def reference(slot, models):
-        """The locked reference clip for a voice, designing it the first time."""
-        folder = os.path.join(PACK, safe(slot))
+    def reference(slot, variant, models):
+        """The locked reference clip for a voice (or one of its delivery variants), designing it the first time."""
+        folder = os.path.join(PACK, safe(slot)) if variant == "default" else os.path.join(PACK, safe(slot), safe(variant))
         os.makedirs(folder, exist_ok=True)
         wav, txt = os.path.join(folder, "reference.wav"), os.path.join(folder, "reference.txt")
         if not os.path.exists(wav):
-            ready = READY_VOICES.get(slot)
+            ready = READY_VOICES.get(slot) if variant == "default" else None
             if ready:
                 import shutil
                 shutil.copy(os.path.join(SAMPLES, ready, "design_0.wav"), wav)
                 shutil.copy(os.path.join(SAMPLES, ready, "ref.txt"), txt)
             else:
                 info = sheet[slot]
-                pool = sorted({spoken(r) for r in rows if r["voice_slot"] == slot and 60 <= len(spoken(r)) <= 170}, key=lambda t: -len(t))
+                spec = variants.get(slot, {}).get(variant, {})
+                delivery = spec.get("delivery", info["delivery"])
+                # Prefer example lines that actually belong to this variant, so the design model
+                # hears the emotional register it's meant to lock in; fall back to any line for the voice.
+                matching = [r for r in rows if r["voice_slot"] == slot and classify_variant(variants, slot, spoken(r)) == variant]
+                pool_rows = matching or [r for r in rows if r["voice_slot"] == slot]
+                pool = sorted({spoken(r) for r in pool_rows if 60 <= len(spoken(r)) <= 170}, key=lambda t: -len(t))
                 ref_text = " ".join(pool[:2]) if pool else "Hello there. It is good to see you again. Come in, come in, there is so much I want to tell you."
-                instruct = "%s. %s. %s. A character in a fantasy adventure game, clean studio recording." % (info["voice"].rstrip("."), info["delivery"].rstrip("."), info["theme"].rstrip("."))
-                torch.manual_seed(int(hashlib.sha1(slot.encode()).hexdigest()[:8], 16))
+                instruct = "%s. %s. %s. A character in a fantasy adventure game, clean studio recording." % (info["voice"].rstrip("."), delivery.rstrip("."), info["theme"].rstrip("."))
+                torch.manual_seed(int(hashlib.sha1((slot + "|" + variant).encode()).hexdigest()[:8], 16))
                 wavs, sr = models.design.generate_voice_design(text=ref_text, language="English", instruct=instruct)
                 sf.write(wav, wavs[0], sr)
                 with open(txt, "w", encoding="utf-8") as f:
                     f.write(ref_text)
-                print("designed %s (%.0f s)" % (slot, len(wavs[0]) / sr), flush=True)
+                print("designed %s/%s (%.0f s)" % (slot, variant, len(wavs[0]) / sr), flush=True)
         return wav, open(txt, encoding="utf-8").read()
 
     def speak(texts, prompt):
@@ -203,36 +230,38 @@ def main():
     # Area by area, so the part of the game the player reaches next finishes first.
     groups = {}
     for row in todo:
-        groups.setdefault((row["area"], row["voice_slot"]), []).append(row)
+        variant = classify_variant(variants, row["voice_slot"], spoken(row))
+        groups.setdefault((row["area"], row["voice_slot"], variant), []).append(row)
     current_area = None
     # Voices listed in priority_slots.json go first within their area, e.g. the town the player is in right now.
     priority_path = os.path.join(os.path.dirname(SHEET), "priority_slots.json")
     priority = json.load(open(priority_path, encoding="utf-8")) if os.path.exists(priority_path) else []
-    rank = lambda item: (item[0][0], priority.index(item[0][1]) if item[0][1] in priority else len(priority), item[0][1])
-    for (area, slot), lines in sorted(groups.items(), key=rank):
+    rank = lambda item: (item[0][0], priority.index(item[0][1]) if item[0][1] in priority else len(priority), item[0][1], item[0][2])
+    for (area, slot, variant), lines in sorted(groups.items(), key=rank):
         if area != current_area:
             current_area = area
             # Voices are designed per area, so the next part of the game does not wait for the whole cast.
-            for voice in sorted({key[1] for key in groups if key[0] == area}):
+            for voice, voice_variant in sorted({key[1:] for key in groups if key[0] == area}):
                 if os.path.exists(os.path.join(PACK, "STOP")):
                     print("STOP file found, ending", flush=True)
                     return
-                if not os.path.exists(os.path.join(PACK, safe(voice), "reference.wav")) and voice not in READY_VOICES:
+                ref_folder = os.path.join(PACK, safe(voice)) if voice_variant == "default" else os.path.join(PACK, safe(voice), safe(voice_variant))
+                if not os.path.exists(os.path.join(ref_folder, "reference.wav")) and not (voice_variant == "default" and voice in READY_VOICES):
                     models.ensure_design()
-                    reference(voice, models)
+                    reference(voice, voice_variant, models)
         lines = sorted(lines, key=lambda r: len(r["text"]))
         for start in range(0, len(lines), args.batch):
             if os.path.exists(os.path.join(PACK, "STOP")):
                 print("STOP file found, ending", flush=True)
                 return
             models.ensure()
-            if slot not in models.prompts:
+            if (slot, variant) not in models.prompts:
                 models.prompts = {}   # only the current voice stays on the GPU
                 gc.collect()
                 torch.cuda.empty_cache()
-                wav, ref_text = reference(slot, models)
-                models.prompts[slot] = models.clone.create_voice_clone_prompt(ref_audio=wav, ref_text=ref_text, x_vector_only_mode=False)
-            prompt = models.prompts[slot]
+                wav, ref_text = reference(slot, variant, models)
+                models.prompts[(slot, variant)] = models.clone.create_voice_clone_prompt(ref_audio=wav, ref_text=ref_text, x_vector_only_mode=False)
+            prompt = models.prompts[(slot, variant)]
             group = lines[start:start + args.batch]
             texts = [spoken(r) for r in group]
             torch.manual_seed(start + 11)

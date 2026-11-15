@@ -13,5 +13,8 @@
  "Crowd_Hylia_B": "A small, sturdy boy with a low, gravelly little voice and a blunt, boyish way of talking. Definitely a boy, never girlish or sing-song",
  "Npc_Goron_Darunia": "Hearty, warm-chested Goron man in the middle of the male range, not a true sub-bass rumble; big dynamic swings from a low murmur up into a booming roar or laugh, rough gravel in the texture",
  "Nabooru": "Rich, confident adult woman's alto, warm and sun-baked, not an unusually deep or low contralto",
- "Rauru": "Warm, wise elderly man's baritone, not a true bass; measured and unhurried, never rushed"
+ "Rauru": "Warm, wise elderly man's baritone, not a true bass; breath faintly audible under the words, a dry rasp in the throat, a slight unsteady quaver on held notes, speech a little slower and heavier with real age; measured and unhurried, never rushed",
+ "Npc_Kaepora": "Elderly, sonorous, hooting male voice; breath audible between phrases, a dry papery rasp under the hoots, words landing a little slower and heavier with real old age",
+ "GreatDekuTree": "Ancient, slow, gentle bass; breath heavy and labored, a woody creak and rasp under every word, voice trembling faintly with great age and effort",
+ "Npc_Hylia_041": "A genuinely old man well past seventy, reedy and thin in the chest, breath audible between phrases, a dry rasp and slight quaver in the voice, words landing a little slower with real age; a mischievous old codger's energy underneath, chuckling and teasing"
 }
